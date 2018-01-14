@@ -1,0 +1,141 @@
+.section {
+  background-color: #FFF;
+
+  &-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @include media($large) {
+      width: 70%;
+    }
+
+    > h2 {
+      text-align: center;
+      margin: 50px 0 0 0;
+    }
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    p, li {
+      margin-top: 0;
+    }
+
+    li {
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &-b1 {
+    background-color: #424242;
+    color: #FFF;
+
+    a {
+      color:#FFF;
+    }
+  }
+
+  &-c1 {
+    .column > h2 {
+      margin: auto 0;
+    }
+    p {
+      @include font-size(20);
+      line-height: 2rem;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+    .column {
+      padding: 20px 15px;
+      @include media($medium) {
+        padding: 40px 15px;
+      }
+    }
+    .column-header {
+      padding-bottom: 0;
+      @include media($medium) {
+        padding-bottom: 40px;
+      }
+    }
+  }
+}
+
+.column {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 2px;
+
+  &-center {
+    text-align: center;
+
+    p {
+      @include font-size(25);
+    }
+  }
+
+  @include media($medium) {
+    .spacer {
+      padding-right: 30px;
+    }
+  }
+}
+
+.row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-flow: row wrap;
+  //justify-content: center;
+
+  &:before, &:after {
+      content: ' ';
+      display: block;
+  }
+
+  &:after {
+    clear: both
+  }
+}
+
+.small {
+  &-12{
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+.medium {
+  &-6 {
+    @include media($medium) {
+      min-width: 50%;
+      max-width: 50%;
+      flex:1 0 50%;
+    }
+  }
+  &-offset-6 {
+    @include media($medium) {
+      margin-left: 50%;;
+    }
+  }
+}
+
+.large {
+  &-6 {
+    @include media($large) {
+      min-width: 50%;
+      max-width: 50%;
+      flex:1 0 50%;
+    }
+  }
+}

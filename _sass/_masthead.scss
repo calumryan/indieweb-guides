@@ -1,0 +1,143 @@
+/* ==========================================================================
+   Masthead
+   ========================================================================== */
+
+  .masthead {
+    @include clearfix;
+    z-index: 2;
+    position: relative;
+    background-image: url(../../images/head.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    animation: fadeIn 0.7s ease-in;
+
+    &__big {
+      //height: 100vh;
+
+      &:after {
+        @extend .clearfix;
+      }
+    }
+
+    .wrap {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(35, 35, 35, 0.5);
+    }
+
+    @include media($medium) {
+      margin-top: 0;
+    }
+
+  .wrap {
+    text-align: center;
+    //max-width: em(440);
+    padding-right: 20px;
+    padding-left: 20px;
+    // padding-top: 50px;
+    // padding-bottom: 50px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+
+    @include media($medium) {
+      //max-width: em(728);
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+
+    @include media($large) {
+      //max-width: em(960);
+    }
+  }
+
+
+  &__logo {
+    display: block;
+    margin: auto;
+    width: 33.333%;
+    height: auto;
+  }
+
+  &__excerpt {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFF;
+    @include media($medium) {
+      font-size: 30px;
+      line-height: 32px;
+    }
+  }
+
+  &__tagline {
+    margin-top: 1rem;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #FFF;
+    @include media($medium) {
+      font-size: 60px;
+      line-height: 65px;
+    }
+    font-family: $heading-font;
+    text-rendering: optimizeLegibility; // Fix the character spacing for headings
+  }
+}
+
+/*
+   Site logo
+   ========================================================================== */
+
+.site-logo {
+
+  img {
+    width: 300px;
+    height: auto;
+    @include animation-duration(1s);
+    @include animation-delay(.05s);
+
+    @include media($medium) {
+      width: 400px;
+    }
+
+    @include media($large) {
+      width: 500px;
+    }
+  }
+}
+
+/*
+   Site title/name
+   ========================================================================== */
+
+.site-title {
+  margin-bottom: 0;
+  @include animation-duration(1s);
+  @include animation-delay(.75s);
+
+  a {
+    color: $white;
+  }
+}
+
+/*
+   Site description text
+   ========================================================================== */
+
+.site-description {
+  margin-top: 0;
+  font-family: $alt-font;
+  @include font-size(16);
+  font-weight: 400;
+  font-style: italic;
+  @include animation-duration(1s);
+  @include animation-delay(1s);
+
+  @include media($medium) {
+    @include font-size(20);
+  }
+}

@@ -1,0 +1,24 @@
+.hsection {
+  padding: 50px 0;
+
+  &__content {
+    margin: auto;
+    max-width: 90%;
+    @include media($medium) {
+      max-width: 50%;
+    }
+
+  }
+
+  &__1 {
+    background-color: #316c9a;
+    text-align: center;
+    color: #FFF;
+  }
+  &__2 {
+    background-color: #272727;
+    text-align: center;
+    color: #FFF;
+  }
+
+}

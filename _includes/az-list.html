@@ -1,0 +1,10 @@
+<div id="root" class="pane pane-root">
+  <h1 class="visuallyhidden" tabindex="-1">All categories</h1>
+  <ul>
+    {% for post in site.categories.browse %}
+    {% if post.tags contains "Index" %}
+      <li {% if page.url == post.url %}class="active"{% elsif post.tags contains page.primary_tag %}class="active"{% endif %}><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>

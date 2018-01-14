@@ -1,0 +1,271 @@
+.pane {
+  margin-top: 20px;
+  @include media($medium) {
+    width: 25%;
+    min-height: 20px;
+    display: block;
+    display: flex;
+    flex: 1 0 25%;
+    max-width: 25%;
+    flex-direction: column;
+    order: 1;
+  }
+
+  h2 {
+    padding: 0 15px;
+    margin: 0 0 15px 0;
+  }
+
+  .sort-order {
+    @include font-size(22);
+    font-weight: 600;
+    text-transform: none;
+    float: left;
+    display: block;
+    width: 80px;
+    margin-left: -80px;
+    padding: 15px 0 15px 15px;
+  }
+
+  a {
+    color: $link-color;
+
+    &:hover, &:active, &:focus, &:visited {
+      color: inherit;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      @include font-size(18,no);
+
+      a {
+        padding: 12px 30px 8px 10px;
+        display: block;
+        position: relative;
+        z-index: 1;
+
+        &:hover {
+          background-color: #dee0e2;
+          color: #005ea5;
+        }
+
+        &:active {
+          color: $pane-active-bg;
+        }
+
+        &:visited {
+          color: #4c2c92;
+        }
+
+        &:focus {
+          background-color: #FFB100;
+          outline: 3px solid #FFB100;
+          color: #000;
+
+          .pane-excerpt {
+            color: #000;
+          }
+        }
+
+        &:after {
+          position: absolute;
+          top: 50%;
+          margin-top: -13px;
+          right: 10px;
+          float: right;
+          content: "\203A";
+        }
+      }
+
+      &.active {
+        a {
+          color: #FFF;
+          background-color: $pane-active-bg;
+
+          .pane-excerpt {
+            color:#FFF;
+          }
+        }
+      }
+    }
+  }
+
+  &-browser {
+
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    
+    @include media($medium) {
+      padding-bottom: 30px;
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+    }
+
+    // article.post-content {
+    //   @include media($medium) {
+    //     float: right;
+    //     width: 75%;
+    //     display: flex;
+    //     flex: 1 0 75%;
+    //     flex-direction: column;
+    //     order: 2;
+    //     position: relative;
+    //     z-index: 1;
+
+    //     &:before {
+    //       content: "";
+    //       border-left: 1px solid #CCC;
+    //       height: 100%;
+    //       position: absolute;
+    //       top: 0px;
+    //       left: -30px;
+    //     }
+    //   }
+    // }
+
+  }
+
+  &.with-sort {
+
+    ul {
+      li {
+        font-weight: 600;
+
+        a {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+    }
+
+  }
+
+  &-inner {
+    @include media($medium) {
+      height: 100%;
+      border-left: 1px solid #bfc1c3;
+    }
+
+    .with-sort & {
+      @include media($medium) {
+        padding-left: 100px;
+      }
+    }
+
+  }
+
+  &-excerpt {
+    color: #000;
+    @include font-size(14,no);
+    font-weight: 400;
+  }
+
+  &-root {
+    display: none;
+    @include media($medium) {
+      display: flex;
+    }
+
+    .pane-3 & {
+      ul {
+        li {
+          a {
+            color: $pane-greyed-color;
+          }
+
+          &.active {
+            a {
+              color: #FFF;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-nested {
+    @include media($medium) {
+      order:3;
+      max-width: 100%;
+      flex:1 0 auto;
+    }
+  }
+
+  &-primary {
+    z-index: 2;
+    background: #FFF;
+    position: relative;
+    min-height: 20px;
+    @include media($medium) {
+      display: flex;
+      max-width: 35%;
+      flex:1 0 35%;
+      flex-direction: column;
+      order: 2;
+    }
+
+    .pane-3 & {
+      display: none;
+      @include media($medium) {
+        max-width: 25%;
+        flex:1 0 25%;
+        display: flex;
+
+        .pane-inner {
+          padding-left: 0;
+        }
+
+        h2 {
+          color: #666;
+        }
+      }
+      
+      .sort-order {
+        @include media($medium) {
+          display: none;
+        }
+      }
+ 
+      ul {
+        li {
+          a {
+            color: $pane-greyed-color;
+
+            .pane-excerpt {
+              color:$pane-greyed-color;
+            }
+
+          }
+
+          &.active {
+            a {
+              color: #FFF;
+
+              .pane-excerpt {
+                color:#FFF;
+              }
+
+            }
+          }
+        }
+      }
+
+
+    }
+
+  }
+
+
+
+
+}

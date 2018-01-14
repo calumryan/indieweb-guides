@@ -1,0 +1,15 @@
+---
+layout: null
+---
+[{
+"items": [
+    {% for post in site.categories.browse limit:300 %}
+    {
+        "title": {{ post.title | jsonify }},
+        "excerpt": {{ post.excerpt | jsonify }},
+        "url": "{{ post.url | absolute_url }}",
+        {% if post.tags.size > 0 %}"tags": {{ post.tags | jsonify }}{% endif %}
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+    ]
+}]

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="page">
+
+{% include navigation.html %}
+
+<div id="main" role="main">
+
+  {% if page.logo != true %}
+  <header class="entry-header">
+    <div class="entry-wrapper">
+      <h1 class="entry-title">Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+    </div>
+  </header>
+  {% else %}
+
+  {% endif %}
+
+  <article class="entry">
+
+    <div class="entry-wrapper">
+
+
+      <div class="entry-content">
+
+        <ul class="posts">
+          {% for post in page.posts %}
+            <li>
+              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+{% include take-part.html %}
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+
+{% include scripts.html %}
+
+</body>
+</html>
+
+

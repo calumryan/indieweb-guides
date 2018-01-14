@@ -1,0 +1,17 @@
+# Site navigation links
+
+- title: Introducing
+  url: /
+  type: nav-normal
+
+- title: Get involved
+  url: /#section-7
+  type: nav-normal
+
+- title: Guides
+  url: /guides/
+  type: nav-normal
+
+- title: Contribute +
+  url: /contribute/
+  type: nav-normal

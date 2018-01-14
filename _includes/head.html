@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+{% if page.author %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+{% endif %}
+
+{% include open-graph.html %}
+
+{% if site.owner.google.verify %}<!-- Webmaster Tools verfication -->
+<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
+{% if site.owner.bing-verify %}<meta name="msvalidate.01" content="{{ site.owner.bing-verify }}">{% endif %}
+
+{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">
+<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<style>
+body {
+    font-family: "source-sans-pro",sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    padding-top: 48px;
+}
+</style>
+<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+<!-- Webfonts -->
+<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Icons -->
+<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+<link rel="manifest" href="{{ site.url }}/manifest.json">
+<meta name="theme-color" content="#FFF">

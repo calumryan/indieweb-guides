@@ -1,0 +1,23 @@
+<div id="section" class="section-pane pane pane-primary with-sort">
+  <div class="pane-inner curated">
+    {% assign counter=0 %}
+    {% for post in site.categories.browse %}
+    {% if counter == 1 %}
+    {% elsif post.tags contains page.primary_tag %}
+    <h2 tabindex="-1">{{ post.primary_tag }}</h2>
+    <p class="sort-order">A to Z</p>
+    {% assign counter=counter | plus:1 %}
+    {% endif %}
+    {% endfor %}
+
+    <ul role="navigation">
+    {% assign items = site.categories.browse  | sort: 'title' %}
+    {% for post in items %}
+    {% if post.tags contains "Index" %}
+    {% elsif post.tags contains page.primary_tag %}
+      <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<div class="pane-excerpt">{{post.excerpt}}</div></a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="navigation-wrapper">
+
+	<a href="/" class="navigation-wrapper__logo">
+		<svg width="150" height="56" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 487 182.8"><title>IWC</title><style>.st0{fill:#FF5C00;} .st1{clip-path:url(#SVGID_2_);fill:#FF0000;} .st2{clip-path:url(#SVGID_4_);fill:#FF0000;} .st3{fill:#FFB100;} .st4{fill:none;}</style><path class="st0" d="M163.8 33l59.1 126.2 18.6-39.9L201.3 33zm169.1 0h-118l38.8 83.2 20.1 43z"/><defs><path id="SVGID_1_" d="M33 33h117.8v33H33z"/></defs><use xlink:href="#SVGID_1_" overflow="visible" fill="#F00"/><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><path class="st1" d="M31.4 31.4h120.9v36.1H31.4z"/><defs><path id="SVGID_3_" d="M33 78h117.8v71.8H33z"/></defs><use xlink:href="#SVGID_3_" overflow="visible" fill="#F00"/><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><path class="st2" d="M31.4 76.5h120.9v74.9H31.4z"/><path class="st3" d="M453.1 97.9c-3.1 32.4-30.3 57.8-63.5 57.8-35.2 0-63.8-28.6-63.8-63.8S354.3 28 389.6 28c33.1 0 60.3 25.2 63.5 57.5h-63.5c-3.4 0-6.2 2.8-6.2 6.2 0 3.4 2.8 6.2 6.2 6.2h63.5z"/><path class="st4" d="M0 0h487v182.8H0z"/></svg>
+	</a>
+
+	<button id="js-menu-1" aria-controls="site-nav" class="site-nav-toggle">Menu</button>
+
+	<nav role="navigation" id="site-nav" class="">
+	    <ul>
+      {% for link in site.data.navigation %}
+		    {% if link.url contains 'http' %}
+		        {% assign domain = '' %}
+		        {% else %}
+		        {% assign domain = site.url %}
+		    {% endif %}
+		    <li class="{{ link.type }}"><a href="{{ domain }}{{ link.url }}"><span>{{ link.title }}</span></a></li>
+		  {% endfor %}
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+{% if page.logo != true %}
+
+{% else %}
+
+{% endif %}
+
+<div class="js-menu-screen menu-screen"></div>

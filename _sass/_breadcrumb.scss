@@ -1,0 +1,46 @@
+.breadcrumbs {
+    margin: 0 10px;
+    padding: 20px 0 0 0;
+    
+    @include media($large) {
+        margin: auto;
+        width: 70%;
+    }
+    
+    @extend .clearfix;
+
+    ol {
+        padding: 0;
+        margin: 0;
+        li {
+            font-size: 12px;
+            list-style: none;
+            float: left;
+            padding: 0 5px;
+
+            @include media($large) {
+                font-size: inherit;
+            }   
+
+            &:after {
+                content:"›";
+                position: relative;
+                right: -2px;
+            }
+
+            /*&:last-child {
+                &:after {
+                    content: "";
+                }
+            }*/
+            
+            a {
+                padding: 5px;
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

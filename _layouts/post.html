@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="post">
+
+{% include navigation.html %}
+
+  <div class="breadcrumbs">
+    <ol>
+      <!--<li><a href="{{ site.url }}">Home</a></li>-->
+      <li><a href="{{ site.url }}/guides/">Guides</a></li>
+      
+      {% if page.tags contains "Index" %}
+
+      {% elsif page.tags contains "Sub" %}
+
+          {% assign counter=0 %}
+          {% for post in site.categories.browse %}
+          {% if counter == 1 %}
+          {% elsif post.tags contains page.primary_tag %}
+          <li><a href="{{ site.url }}/browse/{{ page.identifier }}">{{ post.primary_tag }}</a></li>
+          {% assign counter=counter | plus:1 %}
+          {% endif %}
+          {% endfor %}
+
+      {% else %}
+
+          {% assign counter=0 %}
+          {% for post in site.categories.browse %}
+          {% if counter == 1 %}
+          {% elsif post.tags contains page.primary_tag %}
+          <li><a href="{{ site.url }}/browse/{{ post.identifier }}">{{ post.primary_tag }}</a></li>
+          {% assign counter=counter | plus:1 %}
+          {% endif %}
+          {% endfor %}
+
+          {% assign counter=0 %}
+          {% for post in site.categories.browse %}
+          {% if counter == 1 %}
+          {% elsif post.tags contains page.secondary_tag %}
+          <li><a href="{{ site.url }}/browse/{{ page.identifier }}">{{ post.secondary_tag }}</a></li>
+          {% assign counter=counter | plus:1 %}
+          {% endif %}
+          {% endfor %}
+
+      {% endif %}
+
+
+
+
+
+
+    </ol>
+  </div>
+
+  <section id="main" role="main">
+
+    <div class="post h-entry post-entry section-content" itemscope itemtype="http://schema.org/BlogPosting">
+      
+      {% if page.tags contains "Index" %}
+      {% elsif page.tags contains "Sub" %}
+      {% else %}
+      <header class="post-header">
+        <h1 class="post-title p-name" itemprop="name">{{ page.title }}</h1>
+        <p class="p-summary">{{ page.excerpt }}</p>
+      </header>
+      {% endif %}
+
+      {% assign layout=1 %}
+      
+      {% if page.tags contains "Index" %}
+      {% assign layout=2 %}
+      {% elsif page.tags contains "Sub" %}
+      {% assign layout=3 %}
+      {% endif %}
+
+      <section class="pane-browser pane-{{ layout }} e-content" data-state="subsection" aria-busy="false">
+
+        {% if page.tags contains "Index" %}
+
+        {% include az-list-layer1.html %}
+        {% include az-list.html %}
+
+        {% elsif page.tags contains "Sub" %}
+
+        {% include az-list-layer2.html %}
+        {% include az-list-layer1.html %}
+        {% include az-list.html %}
+
+        {% else %}
+        <article class="post-content e-content" itemprop="articleBody" role="main">
+          {{ content }}
+        </article>
+
+
+          <aside class="post-aside">
+            <div>
+              <h2>Also in this section</h2>
+              <ul>
+              {% for post in site.categories.browse %}
+              {% if post.tags contains "Index" %}
+              {% elsif post.tags contains "Sub" %}
+              {% elsif page.url == post.url %}
+              {% elsif post.tags contains page.secondary_tag %}
+                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+              {% endfor %}
+              </ul>
+            </div>
+          </aside>
+
+          
+        {% endif %}
+
+
+        
+      </section>
+
+    </div><!-- /.post -->
+
+  </section><!-- /#main -->
+
+  {% include take-part.html %}
+
+  <div class="footer-wrapper">
+    <footer role="contentinfo" class="entry-wrapper">
+      {% include footer.html %}
+    </footer>
+  </div><!-- /.footer-wrapper -->
+
+  {% include scripts.html %}
+</body>
+</html>
