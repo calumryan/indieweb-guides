@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-excerpt: "Website introducing the IndieWeb movement and guides to getting started with your website from scratch and then enhancing it features like Microformats and Webmentions"
+excerpt: "Introducing the IndieWeb movement and guides for getting started with having your own website."
 search_omit: true
 logo: true
 ---
