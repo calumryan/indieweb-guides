@@ -91,3 +91,14 @@ logo: true
 		<a href="{{site.url}}/guides/" class="btn btn-center">Introducing the IndieWeb Guides &raquo;</a>
 	</div>
 </section>
+
+<section class="section section-b2" id="section-media">
+		<div class="section-content">
+			<h2>Learn about IndieWeb Building Blocks</h2>
+			<div class="column column-center">
+				<p>This half-hour talk given by <a href="https://adactio.com">Jeremy Keith</a> at View Source 2017 provides an overview of why the IndieWeb movement exists and getting started with IndieWeb Building Blocks.</p>
+				<div class="embed-container"><iframe src='https://www.youtube.com/embed/VvYK-K0jWng' frameborder='0' allowfullscreen></iframe></div>
+				<noscript>Video embed URL <a href="https://www.youtube.com/embed/VvYK-K0jWng">https://www.youtube.com/embed/VvYK-K0jWng</a></noscript>
+			</div>
+		</div>
+	</section>

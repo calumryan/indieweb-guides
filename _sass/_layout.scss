@@ -1,6 +1,12 @@
 .section {
   background-color: #FFF;
 
+  &:after, &:before {
+    content:"";
+    display: table;
+    clear: both;
+  }
+
   &-content {
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +42,25 @@
 
     a {
       color:#FFF;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-b2 {
+    background-color: #384254;
+    color: #FFF;
+
+    a {
+      color:#FFF;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 
