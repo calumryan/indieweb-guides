@@ -1,7 +1,7 @@
 ---
 layout: az
 title: Guides
-excerpt: "These guides firstly present and explain the process for setting up your own website. You can then progress to find out about new sharing and publishing features for your website developed within the IndieWeb community."
+excerpt: "Often people attend IndieWebCamps or Homebrew Website Clubs for the first time asking where to start in setting up their website. Here we break down each of the steps into easily consumable guides for topics like registering a domain, hosting and publishing your content."
 search_omit: true
 type: Index
 ---
