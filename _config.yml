@@ -6,7 +6,7 @@ locale: en_GB
 description: Clear, simple guides to taking greater control of your data on the Web
 logo: head.jpg
 search: true
-url: //indiewebguides.org
+url: https://indiewebguides.org
 
 # Jekyll configuration
 
