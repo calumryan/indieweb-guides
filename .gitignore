@@ -5,6 +5,7 @@ composer.lock
 composer.phar
 node_modules
 npm-debug.log
+package-lock.json
 
 ## Jekyll
 _site

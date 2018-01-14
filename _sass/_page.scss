@@ -412,6 +412,9 @@ span + .entry-title {
 }
 
 .post-content {
+	padding-top: 20px;
+	border-top: 1px solid #ccc;
+	
 	@include media($medium) {
 		flex: 1 0 66.666%;
 		max-width: 66.666%;
