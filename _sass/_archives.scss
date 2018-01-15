@@ -50,8 +50,9 @@
       background-color: $pane-active-bg;
       color: #FFF;
       padding: 15px;
-      display: block;
-      height: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
       min-height: 100px;
 
       &:hover {
