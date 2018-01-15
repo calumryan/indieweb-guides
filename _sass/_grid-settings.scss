@@ -2,8 +2,8 @@
 
 // Change the grid settings
 $visual_grid: false;
-$max-width: em(960);
+$max-width: em(1200);
 
 // Define your breakpoints
-$medium: new-breakpoint(min-width em(992) 12);
+$medium: new-breakpoint(min-width em(768) 12);
 $large: new-breakpoint(min-width em(1000) 12);
