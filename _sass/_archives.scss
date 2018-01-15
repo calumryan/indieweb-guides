@@ -16,12 +16,6 @@
   position: relative;
   z-index: 1;
 
-  &:after, &::before{
-    display: table;
-    content: "";
-    clear: both;
-  }
-  
   @include media($medium) {
     display: -webkit-flex;
     display: flex;
@@ -56,9 +50,9 @@
       background-color: $pane-active-bg;
       color: #FFF;
       padding: 15px;
-      display: flex;
+      display: block;
       height: 100%;
-      flex-direction: column;
+      min-height: 100px;
 
       &:hover {
         background: #1a1a1a;
