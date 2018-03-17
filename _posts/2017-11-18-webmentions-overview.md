@@ -17,4 +17,4 @@ Webmentions work by operating on the basis that whatever interaction you're send
 
 Webmentions aren't tied to any particular platform or technology so they can be used in a range of different CMS and programming languages. If you're just getting started with learning how to setup a website then it's worthwhile considering whether one or the other might make it easier for you to send and receive Webmentions. As an example the IndieWeb community has created a PHP-based plugin for WordPress which already facilitates Webmentions.
 
-See our guide to [Implementing Webmentions](/browse/webmentions/webmentions#implementation) to see which kind of approach best matches your website's setup.
+See our guide to [Implementing Webmentions](/browse/webmentions/webmentions-detail#implementation) to see which kind of approach best matches your website's setup.
