@@ -433,11 +433,11 @@ span + .entry-title {
 
 		a {
 
-			&[href ^="https://"]:not([href*="https://indiewebguides.org"]),
-			&[href ^="https://"]:not([href*="https://www.indiewebguides.org"]) {
-				background: url(../../images/external.svg) center right no-repeat;
-				padding-right: 13px;
-			}
+			// &[href ^="https://"]:not([href*="indiewebguides.org"]),
+			// &[href ^="https://"]:not([href*="www.indiewebguides.org"]) {
+			// 	background: url(../../images/external.svg) center right no-repeat;
+			// 	padding-right: 13px;
+			// }
 
 		}
 	}
