@@ -6,7 +6,8 @@ locale: en_GB
 description: Clear, simple guides to taking greater control of your data on the Web
 logo: head.jpg
 search: true
-url: https://indiewebguides.org
+url: http://127.0.0.1:4000
+#url: https://indiewebguides.org
 
 # Jekyll configuration
 
@@ -21,7 +22,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jekyll-archives
-  
+
 kramdown:
   input: GFM
   auto_ids: true
