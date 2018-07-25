@@ -24,6 +24,6 @@ How you implement webmentions will depend on the type of CMS or code base that y
 The following CMS have webmentions either baked-in ready to use on your site or with a plugin which can be easily installed.
 
 - [Perch](https://grabaperch.com/)
-- [Drupal](https://www.drupal.org/) (requires a plugin, e.g. [drupal.org/project/indieweb](https://www.drupal.org/project/indieweb), [drupal.org/project/vinculum](https://www.drupal.org/project/vinculum))
+- [Drupal](https://www.drupal.org/) **requires a plugin, e.g. [drupal.org/project/indieweb](https://www.drupal.org/project/indieweb), [drupal.org/project/vinculum](https://www.drupal.org/project/vinculum)**
 - [Craft](https://craftcms.com/)
-- [WordPress](https://wordpress.org/) (requires a plugin, e.g. [wordpress.org/plugins/webmention/](https://wordpress.org/plugins/webmention/))
+- [WordPress](https://wordpress.org/) **requires a plugin, e.g. [wordpress.org/plugins/webmention/](https://wordpress.org/plugins/webmention/)**
