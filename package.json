@@ -19,5 +19,8 @@
     "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
     "grunt-contrib-watch": "~0.5.2",
     "grunt-svgmin": "~0.2.0"
+  },
+  "dependencies": {
+    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony"
   }
 }
