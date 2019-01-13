@@ -1,17 +1,17 @@
 ## Files
 *.DS_Store
-composer.json
-composer.lock
-composer.phar
-node_modules
-npm-debug.log
-package-lock.json
+version-1/composer.json
+version-1/composer.lock
+version-1/composer.phar
+version-1/node_modules
+version-1/npm-debug.log
+version-1/package-lock.json
 
 ## Jekyll
-_site
-.jekyll
-.jekyll-metadata
-.bundle
-.sass-cache
-Gemfile.lock
-_plugins/.cache/
+version-1/_site
+*.jekyll
+*.jekyll-metadata
+*.bundle
+*.sass-cache
+*Gemfile.lock
+version-1/_plugins/.cache/
