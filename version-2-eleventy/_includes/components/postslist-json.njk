@@ -1,0 +1,7 @@
+[{% for item in collections.guides %}
+  {
+    "title": "{{ item.data.title }}",
+    "content": "{{ item.templateContent | tokenize | jsonify }}",
+    "url": "{{ item.url | permalink }}"
+  }{% if loop.last %}{% else %},{% endif %}
+{% endfor %}]

@@ -7,8 +7,15 @@ version-1/node_modules
 version-1/npm-debug.log
 version-1/package-lock.json
 
+version-2-eleventy/composer.json
+version-2-eleventy/composer.lock
+version-2-eleventy/composer.phar
+version-2-eleventy/node_modules
+version-2-eleventy/npm-debug.log
+
 ## Jekyll
 version-1/_site
+version-2-eleventy/_site
 *.jekyll
 *.jekyll-metadata
 *.bundle

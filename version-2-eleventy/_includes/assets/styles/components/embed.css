@@ -1,0 +1,36 @@
+.embed {
+  background-color: var(--color-offset);
+}
+
+.embed__button {
+  align-items: center;
+  color: var(--color-neutral-lightest);
+  cursor: pointer;
+  display: flex;
+  font: 0/0 sans-serif;
+  inline-size: 100%;
+  inset-block: 0;
+  inset-inline: 0;
+  justify-content: center;
+  position: absolute;
+  z-index: 0;
+}
+
+/* Circle background */
+.embed__button::before {
+  background: var(--color-alpha-low) url("/assets/vectors/play.svg") no-repeat;
+  block-size: 10vmin;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px hsla(0, 100%, 100%, 0.25);
+  content: "";
+  display: block;
+  inline-size: 10vmin;
+  position: absolute;
+  transition-duration: var(--transition-short);
+  transition-property: all;
+  z-index: -1;
+}
+
+.embed__button:hover::before {
+  background-color: var(--color-alpha-lowest);
+}

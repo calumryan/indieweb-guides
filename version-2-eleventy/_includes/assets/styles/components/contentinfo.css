@@ -1,0 +1,51 @@
+.contentinfo {
+  inline-size: 100vw;
+  margin-block-start: auto;
+}
+
+.contentinfo__container {
+  @extend %container;
+  @extend %caption;
+
+  --container-padding-inline: calc(var(--grid-column-gap) - var(--inset));
+  align-items: center;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  padding-block: var(--space-block-small);
+}
+
+@media print {
+  .contentinfo__container {
+    flex-flow: row;
+    justify-content: start;
+  }
+}
+
+.contentinfo__legal {
+  margin-inline-end: var(--inset);
+  padding: var(--inset-small);
+}
+
+@media print {
+  .contentinfo__legal {
+    padding: 0;
+  }
+}
+
+@media (--from-small-viewport) {
+  .contentinfo .navigation {
+    margin-inline-end: auto;
+  }
+}
+
+@media print {
+  .contentinfo .elsewhere,
+  .contentinfo .navigation {
+    display: none;
+  }
+}
+
+.contentinfo a:hover {
+  color: var(--color-accent);
+}

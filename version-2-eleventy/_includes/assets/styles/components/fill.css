@@ -1,0 +1,113 @@
+@media (--from-large-viewport) {
+    .fill {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: initial;
+    }
+}
+
+.fill .side {
+    background-color: rgb(21, 21, 21);
+    color: #fff;
+    width: 100%;
+}
+
+.fill main {
+    background-color: #fff;
+}
+
+@media (--from-large-viewport) {
+    .fill main {
+        width: 50%;
+        flex: 1 0 50%;
+        flex-direction: column;
+    }
+}
+
+@media (--from-large-viewport) {
+    .fill .side {
+        width: 50%;
+        min-height: 100vh;
+    }
+}
+
+.fill main .wrapper {
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+@media (--from-large-viewport) {
+    .fill main .wrapper,
+    .fill header .wrapper {
+        width: 70%;
+        max-width: 700px;
+    }
+
+    .fill main .wrapper {
+        margin-left: 4em;
+    }
+
+    .fill header .wrapper {
+        margin-right: 4em;
+    }
+
+}
+
+
+@media (--from-large-viewport) and (--from-largest-viewport-vertical){
+    .fill header {
+        position: sticky;
+        top: 0;
+    }
+    .fill footer .wrapper {
+        width: 70%;
+        max-width: 700px;
+        margin-right: 4em;
+    }
+}
+
+.fill__title {
+    padding: 5em 0;
+    margin: auto 0;
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.fill__title p {
+    font-size: 1.5rem;
+    margin: 1.5em auto 0 auto;
+    font-weight: 600;
+}
+
+.fill__title p:after {
+    clear: both;
+    display: flex;
+    flex: 1 0 100%;
+}
+
+@media (--from-large-viewport) {
+    .fill__title p {
+        width: 80%;
+    }
+}
+
+.fill__title .logo {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+@media (--from-large-viewport) and (--from-largest-viewport-vertical){
+    .fill footer {
+        position: fixed;
+        width: 50%;
+        bottom: 0;
+        left: 0;
+        background-color: transparent;
+        border: none;
+    }
+}

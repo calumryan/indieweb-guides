@@ -1,0 +1,63 @@
+{
+  "name": "indieWeb-guides",
+  "version": "1.0.0",
+  "description": "Source code for Introducing the IndieWeb guides. This is a work in progress started at IndieWebCamp Nuremburg which is a documentation of what the IndieWeb community is about written for and aimed at non-technical users.",
+  "scripts": {
+    "build:files": "npx eleventy --config eleventy.config.js",
+    "build:scripts": "rollup --config lib/rollup.config.js",
+    "build:styles": "postcss _includes/assets/styles/app.css -o _site/assets/styles/app.css --config lib/postcss.config.js",
+    "build": "npm run build:styles && npm run build:scripts && npm run build:files",
+    "watch:files": "npx eleventy --config eleventy.config.js --quiet --watch",
+    "watch:scripts": "rollup --config lib/rollup.config.js --watch",
+    "watch:styles": "postcss _includes/assets/styles/app.css -o _site/assets/styles/app.css --config lib/postcss.config.js --watch",
+    "watch": "npm-run-all --parallel watch:*",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calumryan/indieweb-guides"
+  },
+  "author": {
+    "name": "Calum Ryan",
+    "email": "dev@calumryan.com",
+    "url": "https://www.calumryan.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calumryan/indieweb-guides/issues"
+  },
+  "homepage": "https://github.com/calumryan/indieweb-guides",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.0",
+    "luxon": "^1.10.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-anchor": "^5.0.0",
+    "markdown-it-attrs": "^2.3.2",
+    "markdown-it-deflist": "^2.0.3",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-mentions": "^1.0.0",
+    "markdown-it-table-of-contents": "^0.4.3",
+    "rollup": "^1.0.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^4.0.0",
+    "postcss-cli": "^6.1.1",
+    "postcss-color-mod-function": "^3.0.0",
+    "postcss-custom-media": "^7.0.7",
+    "postcss-custom-selectors": "^5.1.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-extend-rule": "^2.0.0",
+    "postcss-logical": "^3.0.0",
+    "postcss-media-minmax": "^4.0.0",
+    "cssnano": "^4.1.8",
+    "html-minifier": "^3.5.21"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.1",
+    "html-minifier": "^3.5.21",
+    "npm-run-all": "^4.1.5",
+    "uglify-es": "^3.3.9",
+    "uslug": "^1.0.4"
+  }
+}

@@ -1,0 +1,63 @@
+.engagement-links {
+    padding: 2em 0 0 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (--from-large-viewport) and (--from-largest-viewport-vertical){
+    .engagement-links {
+            border-top: 0.1em solid #fff;
+    }
+}
+
+.engagement-links__text {
+    font-size:20px;
+    text-align:center;
+    font-weight:600;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px
+}
+
+.engagement-links li {
+    margin:0 auto 2em auto;
+    list-style:none;
+    flex-direction:column;
+    flex: 1 0 50%;
+}
+
+.engagement-links li::before {
+    content: "";
+}
+
+.engagement-links li a {
+    display:block;
+    padding: 0 1em;
+}
+
+.engagement-links li a:hover,
+.engagement-links li a:focus {
+    text-decoration: underline;
+}
+
+.engagement-links li svg {
+    max-width:6em;
+    height:auto;
+    display:block;
+    margin:auto
+}
+
+.engagement-links li svg.github {
+    max-width: 3em;
+}
+
+.engagement-links li svg path {
+    fill: #fff;
+}
+
+.engagement-links li svg path.engagement-fill {
+    fill: #151515;
+}
