@@ -4,3 +4,8 @@
   --flow-space: var(--space-block-small);
   --section-space: var(--space-block-small);
 }
+
+h2 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}

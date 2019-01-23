@@ -69,9 +69,6 @@
 .fill__title {
     padding: 5em 0;
     margin: auto 0;
-    justify-content: center;
-    display: flex;
-    flex-flow: column wrap;
     text-align: center;
 }
 
@@ -85,6 +82,11 @@
     clear: both;
     display: flex;
     flex: 1 0 100%;
+}
+
+.fill__title__indiv p {
+    font-size: 2.5rem;
+    margin: 1.5rem auto;
 }
 
 @media (--from-large-viewport) {
