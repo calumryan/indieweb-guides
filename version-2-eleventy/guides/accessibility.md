@@ -12,5 +12,3 @@ status: draft
 ---
 ## 1. Overview
 
-
-## 2. Coded example
