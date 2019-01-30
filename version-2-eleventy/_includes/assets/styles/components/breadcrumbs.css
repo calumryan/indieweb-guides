@@ -1,0 +1,26 @@
+.breadcrumbs li {
+    list-style: none;
+    padding: 0 5px;
+    color: #fff;
+}
+
+.breadcrumbs li::after {
+    content:"\203A";
+    position: relative;
+    right: -5px;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs li a {
+    text-decoration: underline;
+    color: #fff;
+    display: inline-block;
+}
+
+.breadcrumbs li a:hover,
+.breadcrumbs li a:focus {
+    text-decoration: none;
+}

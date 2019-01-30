@@ -1,5 +1,6 @@
 .mega-header {
   padding: 2rem 1rem;
+  padding-right: 55px;
   background-color: var(--color-page-heading);
   color: #fff;
   border-bottom-right-radius: 100px;
@@ -33,27 +34,21 @@
 }
 
 .mega-header-band {
-  background-image: linear-gradient(to right,#ff8a00,#da1b60);
+  background-image: linear-gradient(to right,#ff0000,#ffb100,#ff5c00);
   position: relative;
 }
 
 .mega-header-band-content {
-  padding: calc(200px + 1rem) 2rem 0 2rem;
-  margin-top: -200px;
+  padding: calc(180px + 1rem) 2rem 0 2rem;
+  margin-top: -180px;
   overflow: hidden;
-  height: 130px;
 }
 
 .mega-header-band-content-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: -200px;
-}
-
-.mega-header-band-content-content p {
-  margin-bottom: 1rem;
 }

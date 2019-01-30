@@ -1,0 +1,20 @@
+.panels ul {
+    margin: 2em 0;
+}
+
+.panels li {
+    background-color: #2b8cc4;
+    color: #FFF;
+    padding: 15px;
+    margin: 0 0 1em 0;
+}
+
+.panels a {
+    text-decoration: underline;
+    display: block;
+    font-weight: 600;
+}
+
+.panels h3 {
+    margin: 0 0 0.5em 0;
+}

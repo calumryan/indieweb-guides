@@ -1,0 +1,40 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<body class="fill">
+
+		<div class="side">
+
+			<header>
+				<div class="wrapper">
+					{% include "components/nav.njk" %}
+					<div class="fill__title fill__title__indiv">
+					<h1>{{ title }}</h1>
+					<p class="p-summary">{{ subtitle }}</p>
+					</div>
+				</div>
+			</header>
+
+		</div><!-- /side-->
+
+		<main>
+
+			<div class="wrapper">
+				<div class="panels">
+				{{ layoutContent | safe }}
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<div class="wrapper">
+				{% include "components/engagement.njk" %}
+			</div>
+		</footer>
+
+	</body>
+
+</html>
