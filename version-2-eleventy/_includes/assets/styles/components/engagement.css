@@ -8,7 +8,7 @@
 }
 
 @media (--from-large-viewport) and (--from-largest-viewport-vertical){
-    .engagement-links {
+    .fill .engagement-links {
             border-top: 0.1em solid #fff;
     }
 }

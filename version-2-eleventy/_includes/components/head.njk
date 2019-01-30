@@ -2,7 +2,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or metadata.title }}</title>
+
+  <meta property="og:title" content="">
+  <meta property="og:description" name="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="/images/app.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#212227">
+  <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index, follow">
   <link rel="stylesheet" href="/assets/styles/app.css">
+  <link rel="canonical" href="{% if page.permalink %}{{ page.permalink }}{% endif %}">
+  <link rel="manifest" href="/app.webmanifest">
+  <link rel="apple-touch-icon" href="/images/app.png" type="image/png">
   <script> </script><!-- Firefox FOUC solution -->
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 

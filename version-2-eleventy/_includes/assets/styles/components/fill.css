@@ -7,7 +7,7 @@
 }
 
 .fill .side {
-    background-color: rgb(21, 21, 21);
+    background-color: var(--color-page-heading);
     color: #fff;
     width: 100%;
 }

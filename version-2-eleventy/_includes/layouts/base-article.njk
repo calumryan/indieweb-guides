@@ -1,0 +1,39 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<body>
+
+        <article class="h-entry e-content" role="main">
+            <header class="mega-header header-width-bottom-band">
+                <div class="mega-header-content">
+                    <h1 class="p-name">{{ title }}</h1>
+                </div>
+            </header>
+            <div class="mega-header-band">
+                <div class="mega-header-band-content">
+                    <div class="mega-header-band-content-content">
+                        <p>Test some content here...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-wrap">
+                <div class="article">
+                    <div class="article-content">
+                        <p class="p-summary">{{ excerpt }}</p>
+                        {{ layoutContent | safe }}
+                    </div>
+                </div>
+            </div>
+        </article>
+
+		<footer>
+			<div class="wrapper">
+				{% include "components/engagement.njk" %}
+			</div>
+		</footer>
+
+	</body>
+
+</html>

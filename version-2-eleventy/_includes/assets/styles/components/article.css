@@ -1,0 +1,27 @@
+.article {
+    display: block;
+    max-width: var(--max-width);
+    grid-gap: 2rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+@media (--from-large-viewport) {
+    .article {
+        display: grid;
+        grid-template-columns: minmax(0,1fr) 300px;
+        grid-gap: 4rem;
+    }
+}
+
+.article-content {
+    overflow-wrap: break-word;
+    color: #2e2f3e;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.article-content .p-summary {
+    font-weight: 600;
+    font-size: 20px;
+}

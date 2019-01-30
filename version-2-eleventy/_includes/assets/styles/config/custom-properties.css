@@ -1,4 +1,7 @@
 :root {
+  /* IWG Theming */
+  --color-page-heading: rgb(21, 21, 21);
+
   /* Neutral palette */
   --color-neutral: hsla(228, 8%, 64%, 1);
   --color-neutral-darkest: color-mod(var(--color-neutral) l(16%));
@@ -83,7 +86,11 @@
   --container-inline-size: 100vw;
   --container-inline-inset: calc(100vw - var(--container-inline-size));
   --container-gutter: calc(var(--container-inline-inset) / 2);
+
+  /* Width */
+  --max-width: 1280px;
 }
+
 
 @media (--from-small-viewport) {
   :root {

@@ -1,17 +1,59 @@
-.header {
-  --flow-space: var(--space-block-xsmall);
-
-  padding-block-end: var(--space-block-large);
+.mega-header {
+  padding: 2rem 1rem;
+  background-color: var(--color-page-heading);
+  color: #fff;
+  border-bottom-right-radius: 100px;
+  position: relative;
+  z-index: 1;
 }
 
-.header__title {
-  @extend %title;
-
-  margin-block-end: var(--space-block-small);
+.mega-header h1 {
+  font-size: 25px;
+  font-weight: 600;
 }
 
-.header__summary {
-  @extend %lede;
+@media (--from-medium-viewport) {
+  .mega-header {
+    padding: 4rem 2rem;
+  }
+  .mega-header h1 {
+    font-size: 40px;
+  }
+}
 
-  max-inline-size: var(--line-measure);
+@media (--from-large-viewport) {
+  .mega-header h1 {
+    font-size: 50px;
+  }
+}
+
+.mega-header-content {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.mega-header-band {
+  background-image: linear-gradient(to right,#ff8a00,#da1b60);
+  position: relative;
+}
+
+.mega-header-band-content {
+  padding: calc(200px + 1rem) 2rem 0 2rem;
+  margin-top: -200px;
+  overflow: hidden;
+  height: 130px;
+}
+
+.mega-header-band-content-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.mega-header-band-content-content p {
+  margin-bottom: 1rem;
 }
