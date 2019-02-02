@@ -1,6 +1,8 @@
 :root {
   /* IWG Theming */
   --color-page-heading: rgb(21, 21, 21);
+  --color-input: rgb(41, 41, 41);
+  --color-input-focus: rgb(18, 18, 18);
 
   /* Neutral palette */
   --color-neutral: hsla(228, 8%, 64%, 1);

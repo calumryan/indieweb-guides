@@ -11,6 +11,8 @@
 
 				<div class="wrapper">
 
+					{% include "components/search.njk" %}
+
 					<div class="fill__title">
 						<div class="fill__logo">
 						{% include "assets/vectors/logo-text.svg" %}
@@ -34,11 +36,7 @@
 
 		</main>
 
-		<footer>
-			<div class="wrapper">
-				{% include "components/engagement.njk" %}
-			</div>
-		</footer>
+		{% include "components/footer.njk" %}
 
 	</body>
 

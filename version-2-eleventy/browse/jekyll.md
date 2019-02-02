@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Jekyll
 excerpt: "A static site generator which renders pages written in HTML or Markdown using a Ruby-based core rendering with a liquid templating engine"
 categories: browse
-tags: [Static]
+tags: [guide,Static]
 primary_tag: Publishing your content
 secondary_tag: Static
 comments: false

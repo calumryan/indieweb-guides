@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Managing and storing your content
 excerpt: "Understand the choices for hosting your content including free and paid-for options that are ready to use of may require extra setup."
 categories: browse
-tags: [Managing your content,Index]
+tags: [guide,Managing your content,Index]
 primary_tag: Managing your content
 comments: false
 share: true

@@ -9,7 +9,7 @@
 
 			<header>
 				<div class="wrapper">
-					{% include "components/nav.njk" %}
+					{% include "components/search.njk" %}
 					<div class="fill__title fill__title__indiv">
 					<h1>{{ title }}</h1>
 					<p class="p-summary">{{ subtitle }}</p>
@@ -25,11 +25,7 @@
 			</div>
 		</main>
 
-		<footer>
-			<div class="wrapper">
-				{% include "components/engagement.njk" %}
-			</div>
-		</footer>
+		{% include "components/footer.njk" %}
 
 	</body>
 

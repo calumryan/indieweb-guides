@@ -1,0 +1,57 @@
+.widget {
+    position: relative;
+    padding: 1.5em 0.5em;
+}
+
+.widget form {
+    position: relative;
+}
+
+.widget form svg {
+    position: absolute;
+    width: 2em;
+    right: 1em;
+    top: 50%;
+    z-index: 2;
+    margin-top: -1em;
+}
+
+.widget__search .form__combobox {
+    border-radius: 28px;
+    background-color: #fff;
+    display: flex;
+    padding: 2px;
+}
+
+.widget__search .form__combobox:focus-within {
+    background-color: #ff5c00;
+}
+
+.widget__search label {
+    @extend %visually-hidden;
+}
+
+.widget__search .form__input {
+    background-color: var(--color-input);
+    margin: auto;
+    flex: 1;
+    border-radius: 28px;
+    padding: .75rem 2.5rem .75rem 1.5rem;
+}
+
+.widget__search input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+.widget__search .form__field {
+    margin: 0;
+}
+
+.widget__search .form__input:focus {
+    border-color: var(--color-input);
+}
+
+.widget__search .form__input::selection {
+    background: #2730b0;
+    color: #fff;
+}

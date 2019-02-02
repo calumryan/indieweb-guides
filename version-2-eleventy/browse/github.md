@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Github Pages
 excerpt: ""
 categories: browse
-tags: [Hosting]
+tags: [guide,Hosting]
 primary_tag: Managing your content
 secondary_tag: Hosting
 comments: false

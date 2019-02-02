@@ -1,4 +1,4 @@
-[{% for item in collections.guides %}
+[{% for item in collections.guide %}
   {
     "title": "{{ item.data.title }}",
     "content": "{{ item.templateContent | tokenize | jsonify }}",

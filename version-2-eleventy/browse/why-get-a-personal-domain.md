@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Why get a personal domain?
 excerpt: ""
 categories: browse
-tags: [Owning your domain]
+tags: [guide,Owning your domain]
 primary_tag: Your identity on the web
 secondary_tag: Owning your domain
 comments: false

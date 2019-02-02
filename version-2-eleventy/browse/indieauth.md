@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: IndieAuth
 excerpt: ""
 categories: browse
-tags: [Sign in]
+tags: [guide,Sign in]
 primary_tag: Your identity on the web,
 secondary_tag: Sign in
 comments: false

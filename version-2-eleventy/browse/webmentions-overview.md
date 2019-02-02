@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: An overview of Webmentions
 excerpt: ""
 categories: browse
-tags: [Webmentions]
+tags: [guide,Webmentions]
 primary_tag: Sharing your content
 secondary_tag: Webmentions
 comments: false

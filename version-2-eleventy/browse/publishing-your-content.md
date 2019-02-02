@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Publishing your content online
 excerpt: "Learn how to publish and edit your content on the web."
 categories: browse
-tags: [Publishing your content,Index]
+tags: [guide,Publishing your content,Index]
 primary_tag: Publishing your content
 comments: false
 share: true

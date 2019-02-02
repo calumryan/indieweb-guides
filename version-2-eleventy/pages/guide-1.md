@@ -6,6 +6,7 @@ date: 2018-01-01T00:00:00.000Z
 permalink: /guide-1
 navtitle: Guide 1
 tags:
+  - guide
   - nav
 ---
 **Getting started with your first website might seem a little daunting to begin but much like anything breaking it down into small steps can make the process a lot easier and less overwhelming. These steps can be done in any order you find easiest that may depend whether you've done any them previously.**

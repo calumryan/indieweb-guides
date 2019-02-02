@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Your identity on the web
 excerpt: "Prove that other websites and social media profiles are linked to you and much more!"
 categories: browse
-tags: [Your identity on the web,Index]
+tags: [guide,Your identity on the web,Index]
 primary_tag: Your identity on the web
 comments: false
 share: true

@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Semantics
 excerpt: ""
 categories: browse
-tags: [Formats]
+tags: [guide,Formats]
 primary_tag: Writing and structure
 secondary_tag: Formats
 comments: false

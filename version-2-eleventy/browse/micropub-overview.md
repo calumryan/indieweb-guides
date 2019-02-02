@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: An overview of Micropub
 excerpt: ""
 categories: browse
-tags: [Micropub]
+tags: [guide,Micropub]
 primary_tag: Interaction with others
 secondary_tag: Micropub
 comments: false

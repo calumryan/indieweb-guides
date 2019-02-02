@@ -27,6 +27,8 @@
   flex: 1 0 75%;
   padding: var(--inset);
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .form__input:focus {
@@ -59,11 +61,11 @@ textarea.form__input {
 /* Listbox */
 .form__listbox {
   --listbox-shadow: var(--color-alpha-highest);
-  background-color: var(--color-background);
+  background-color: rgb(80, 80, 80);
   border: var(--border-width-thin) solid var(--color-rule);
   box-shadow: 0 0 4px var(--listbox-shadow);
   inset-inline: 0;
-  margin-block-start: calc(var(--border-width-thin) * -1);
+  margin-block-start: calc(var(--border-width-thin) * 50);
   max-block-size: 60vh;
   overflow-y: scroll;
   position: absolute;
@@ -88,10 +90,11 @@ textarea.form__input {
   border-block-end: var(--border-width-thin) solid var(--color-rule);
   display: flex;
   padding: var(--inset);
+  background-color: var(--color-input);
 }
 
 .form__option:hover {
-  background-color: var(--color-offset);
+  background-color: var(--color-input-focus);
 }
 
 .form__option-title {

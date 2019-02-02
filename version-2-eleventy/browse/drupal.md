@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Drupal
 excerpt: "A free and open source content-management framework"
 categories: browse
-tags: [CMS]
+tags: [guide,CMS]
 primary_tag: Publishing your content
 secondary_tag: CMS
 comments: false

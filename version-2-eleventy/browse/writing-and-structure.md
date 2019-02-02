@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Writing and structuring content
 excerpt: "Understand how to structure your content more effectively and present it in a way that search engines and other users and services on the Web interpret your content effectively."
 categories: browse
-tags: [Writing and structure,Index]
+tags: [guide,Writing and structure,Index]
 primary_tag: Writing and structure
 comments: false
 share: true

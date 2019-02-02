@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Sharing your content
 excerpt: "Introducing a variety of ways you can share what you publish with others."
 categories: browse
-tags: [Sharing your content,Index]
+tags: [guide,Sharing your content,Index]
 primary_tag: Sharing your content
 comments: false
 share: true

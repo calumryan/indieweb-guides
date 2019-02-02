@@ -46,3 +46,7 @@ body {
   margin: 0 0 var(--flow-space, 0) 0;
   text-rendering: optimizeLegibility;
 }
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
