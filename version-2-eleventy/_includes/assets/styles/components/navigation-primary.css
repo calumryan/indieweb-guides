@@ -1,0 +1,11 @@
+.nav-primary {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 0.8em 1.5em;
+    background-color: var(--color-page-heading);
+}
+
+.nav-primary--short {
+    justify-content: flex-end;
+}

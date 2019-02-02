@@ -1,0 +1,4 @@
+.button__text,
+.anchor-text {
+   @extend %visually-hidden;
+}

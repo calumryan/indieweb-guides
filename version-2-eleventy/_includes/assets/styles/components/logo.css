@@ -1,3 +1,47 @@
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.logo a {
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo svg {
+    width: 100%;
+}
+
+.logo svg path {
+    fill: transparent;
+}
+
+.logo svg path.vector-p1 {
+    transition: all .6s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.logo svg path.vector-p2 {
+    transition: all .4s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.logo svg path.vector-p3 {
+    transition: all .2s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.logo a:hover svg path.vector-p1,
+.logo a:focus svg path.vector-p1 {
+    fill: #ff5c00;
+}
+
+.logo a:hover svg path.vector-p2,
+.logo a:focus svg path.vector-p2 {
+    fill: #ffb100;
+}
+
+.logo a:hover svg path.vector-p3,
+.logo a:focus svg path.vector-p3 {
+    fill: #ff0000;
+}
 
 .vector-text-top,
 .vector-text-bottom {

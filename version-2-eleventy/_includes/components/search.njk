@@ -1,3 +1,7 @@
-<div class="widget widget__search">
+<button class="widget__search__button" aria-expanded="false" aria-controls="search-widget" type="button">
+    <span class="button__text">Open Search</span>
+    {% include "assets/vectors/search.svg" %}
+</button>
+<div id="search-widget" class="widget widget__search">
 {% include "components/form-search.njk" %}
 </div>
