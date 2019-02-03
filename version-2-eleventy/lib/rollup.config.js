@@ -13,12 +13,21 @@ const plugins = [
 ];
 
 module.exports = [{
-  input: '_includes/assets/scripts/search.js',
-  output: {
-    file: '_site/assets/scripts/search.js',
-    format: 'iife',
-    sourcemap: true,
-    name: 'search'
-  },
-  plugins
+    input: '_includes/assets/scripts/app.js',
+    output: {
+      file: '_site/assets/scripts/app.js',
+      format: 'iife',
+      sourcemap: true,
+      name: 'app'
+    },
+    plugins
+  },{
+    input: '_includes/assets/scripts/search.js',
+    output: {
+      file: '_site/assets/scripts/search.js',
+      format: 'iife',
+      sourcemap: true,
+      name: 'search'
+    },
+    plugins
 }];

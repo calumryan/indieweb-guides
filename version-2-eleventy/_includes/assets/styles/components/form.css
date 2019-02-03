@@ -91,6 +91,7 @@ textarea.form__input {
   display: flex;
   padding: var(--inset);
   background-color: var(--color-input);
+  color: #fff;
 }
 
 .form__option:hover {

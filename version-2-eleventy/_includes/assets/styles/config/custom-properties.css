@@ -91,6 +91,9 @@
 
   /* Width */
   --max-width: 1280px;
+
+  /* Navigation */
+  --nav-height: 70px;
 }
 
 

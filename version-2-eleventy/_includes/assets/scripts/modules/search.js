@@ -1,10 +1,13 @@
 import aria from './aria';
+import toggleSearch from './toggleSearch';
 
 export default function () {
   const searchForm = document.getElementById('search');
   const searchSubmit = document.getElementById('search-submit');
   const endpoint = searchForm.dataset.searchIndex;
   const pages = [];
+
+  toggleSearch();
 
   function findResults(termToMatch, pages) {
     return pages.filter(item => {
