@@ -10,5 +10,4 @@ share: true
 identifier: interaction
 status: draft
 ---
-layout: layouts/base-article.njk
 Ways you can interact with others on the web using IndieWeb technologies.

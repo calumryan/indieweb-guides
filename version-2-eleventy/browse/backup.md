@@ -10,4 +10,3 @@ comments: false
 share: true
 identifier: managing-your-content
 ---
-layout: layouts/base-article.njk

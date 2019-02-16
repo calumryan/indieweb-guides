@@ -9,8 +9,6 @@ secondary_tag: Sign in
 comments: false
 share: true
 identifier: your-identity-on-the-web
-
 ---
-layout: layouts/base-article.njk
 
 Guides related to how you sign in to websites and own your identity on the Web.

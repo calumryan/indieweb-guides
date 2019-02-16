@@ -10,7 +10,6 @@ comments: false
 share: true
 identifier: signin
 ---
-layout: layouts/base-article.njk
 ## 1. Overview
 Using RelMe is like saying to others: that's me on, for example, Twitter, Facebook and LinkedIn. Such social media platforms let you add a link on your profile to your own website which includes the relme propery.
 

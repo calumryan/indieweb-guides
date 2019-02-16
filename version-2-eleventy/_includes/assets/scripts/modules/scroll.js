@@ -2,16 +2,29 @@
  * @namespace scroll
  */
 export default function () {
-    let latestKnownScrollY = 0;
 
     function checkScrollAmount() {
-        latestKnownScrollY = window.scrollY;
-        console.log(latestKnownScrollY);
+
+        let main = document.getElementById('main');
+        let scrolled = main.offsetTop;
+
+        if ( window.scrollY >= scrolled ) {
+            document.body.classList.add('header-not-at-top');
+        } else {
+            document.body.classList.remove('header-not-at-top');
+        }
+
     }
 
     function onScroll() {
-        checkScrollAmount()
+        checkScrollAmount();
     }
 
     window.addEventListener('scroll', onScroll, false);
+    window.onresize = function() {
+        checkScrollAmount();
+    };
+    window.onload = function() {
+        checkScrollAmount();
+    };
 }

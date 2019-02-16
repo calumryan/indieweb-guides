@@ -11,4 +11,3 @@ share: true
 identifier: webmentions
 status: draft
 ---
-layout: layouts/base-article.njk

@@ -1,0 +1,29 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<body class="generic">
+
+        {% include "components/skip.njk" %}
+        {% include "components/nav-primary.njk" %}
+
+        <main id="main" class="page-wrap">
+            <div class="article pane-browser">
+                <div id="root" class="pane pane-root">
+                    <h1 class="anchor-text" tabindex="-1">{{ post.data.title }}</h1>
+                    <ul>
+                        {% set postslist = collections.guidesIndex %}
+                        {% for post in postslist | reverse %}
+                        <li {% if post.url == page.url %}class="active"{% endif %}><a href="{{ post.url | url }}" {% if post.url == page.url %} data-current="current item"{% endif %}>{{ post.data.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+		{% include "components/footer.njk" %}
+
+	</body>
+
+</html>

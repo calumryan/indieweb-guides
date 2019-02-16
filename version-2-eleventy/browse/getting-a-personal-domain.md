@@ -10,7 +10,6 @@ comments: false
 share: true
 identifier: owning-your-domain
 ---
-layout: layouts/base-article.njk
 ## 1. Overview
 When it comes to getting a personal domain there are two types of domain provider:
 

@@ -10,7 +10,6 @@ comments: false
 share: true
 identifier: formats
 ---
-layout: layouts/base-article.njk
 ## 1. Overview
 Microformats are a type of HTML markup that both machines and users can identify through naming conventions that are standardised and widely recognised in open data formats.
 

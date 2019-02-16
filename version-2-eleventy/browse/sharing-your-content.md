@@ -1,16 +1,15 @@
 ---
-layout: layouts/base-article.njk
+layout: layouts/base-steps.njk
 title: Sharing your content
 excerpt: "Introducing a variety of ways you can share what you publish with others."
 categories: browse
-tags: [guide,Sharing your content,Index]
+tags: [guide,Sharing your content,index]
 primary_tag: Sharing your content
 comments: false
 share: true
 identifier: sharing-your-content
 modified: 2017-02-20T19:00:00-04:00
 ---
-layout: layouts/base-article.njk
 At the heart of a great social media platform is the ability to share what we've posted with family, friends and others.
 
 ## Typical things we like share?

@@ -9,6 +9,4 @@ secondary_tag: Webmentions
 comments: false
 share: true
 identifier: sharing-your-content
-
 ---
-layout: layouts/base-article.njk

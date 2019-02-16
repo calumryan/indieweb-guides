@@ -8,7 +8,7 @@
 		<div class="side">
 
 			<header>
-
+				{% include "components/skip.njk" %}
 				{% include "components/nav-primary.njk" %}
 				<div class="wrapper">
 
@@ -27,7 +27,7 @@
 
 		<main>
 
-			<div class="wrapper">
+			<div id="main" class="wrapper">
 				<div class="steps">
 				{{ layoutContent | safe }}
 				</div>

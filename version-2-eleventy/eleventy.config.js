@@ -62,6 +62,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('guides', collection => {
     return collection.getFilteredByGlob('**/+(articles|guides)/**/*.md').reverse();
   });
+  eleventyConfig.addCollection("guidesIndex", function(collection) {
+    return collection.getFilteredByTag("index");
+  });
 
 
   // Don't process folders with static assets e.g. images

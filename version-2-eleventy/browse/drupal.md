@@ -10,7 +10,6 @@ comments: false
 share: true
 identifier: cms
 ---
-layout: layouts/base-article.njk
 
 ## 1. Overview
 Drupal is an open-source CMS with a large community of users and developers furthering its development and supporting new features.

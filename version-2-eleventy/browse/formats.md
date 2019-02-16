@@ -10,4 +10,3 @@ comments: false
 share: true
 identifier: writing-and-structure
 ---
-layout: layouts/base-article.njk

@@ -9,9 +9,7 @@ secondary_tag: CMS
 comments: false
 share: true
 identifier: cms
-
 ---
-layout: layouts/base-article.njk
 
 ## 1. Overview
 WordPress is a highly popular CMS ideal if you're looking to start a self-hosted website using a download from [WordPress.org](https://wordpress.org/) or installed via tools in your hosting provider.

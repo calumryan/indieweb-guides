@@ -11,4 +11,3 @@ share: true
 identifier: hosting
 status: draft
 ---
-layout: layouts/base-article.njk

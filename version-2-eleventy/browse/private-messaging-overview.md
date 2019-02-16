@@ -11,4 +11,3 @@ share: true
 identifier: private-messaging
 status: draft
 ---
-layout: layouts/base-article.njk

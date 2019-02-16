@@ -10,7 +10,6 @@ comments: false
 share: true
 identifier: micropub
 ---
-layout: layouts/base-article.njk
 ## 1. Overview
 Micropub is a standard with the aim of having a common set of approaches for handling different types of content when they are created, updated and deleted on the web as well as through other devices or platforms. Such content might include blog posts, likes, replies and event attendance information.
 

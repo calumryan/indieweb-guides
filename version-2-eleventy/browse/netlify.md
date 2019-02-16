@@ -1,16 +1,15 @@
 ---
-layout: layouts/base-article.njk
 title: Netlify
 excerpt: "Netlify provides deployment of static websites as well offering integration with a range JAMstack architecture."
 categories: browse
-tags: Hosting
+tags: [guide,Hosting]
 primary_tag: Managing your content
 secondary_tag: Hosting
 comments: false
 share: true
 identifier: hosting
----
 layout: layouts/base-article.njk
+---
 
 ## 1. Overview
 Netlify can connect to a git repository of your choosing and deploy it with features including continuous deployment, DNS management and SSL support. It's a suitable choice for anyone looking to setup a low-maintenance static generated website without concerns of cost, security vulnerabilities and maintenance of a server-side based CMS website like WordPress, SquareSpace or Drupal.

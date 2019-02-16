@@ -9,6 +9,4 @@ secondary_tag: POSSE
 comments: false
 share: true
 identifier: sharing-your-content
-
 ---
-layout: layouts/base-article.njk

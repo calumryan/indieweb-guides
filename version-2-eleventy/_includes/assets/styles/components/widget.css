@@ -22,7 +22,7 @@
     width: 100%;
     transition: .1s;
     left: 0;
-    top: var(--nav-height);
+    top: 72px;
     transform: translateY(-100px);
     visibility: hidden;
     opacity: 0;
@@ -39,6 +39,7 @@
     visibility: visible;
     transform: translateY(0);
     z-index: 10;
+    box-shadow: 0 4px 3px rgba(0,0,0,.5);
 }
 
 @media (--from-large-viewport) {
@@ -53,6 +54,7 @@
         left: auto;
         background-color: transparent;
         padding: 0 .5em;
+        box-shadow: none;
     }
 }
 

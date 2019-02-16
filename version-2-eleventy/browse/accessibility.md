@@ -11,6 +11,5 @@ share: true
 identifier: formats
 status: draft
 ---
-layout: layouts/base-article.njk
 ## 1. Overview
 

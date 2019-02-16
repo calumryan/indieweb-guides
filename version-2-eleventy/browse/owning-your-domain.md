@@ -9,6 +9,4 @@ secondary_tag: Owning your domain
 comments: false
 share: true
 identifier: your-identity-on-the-web
-
 ---
-layout: layouts/base-article.njk

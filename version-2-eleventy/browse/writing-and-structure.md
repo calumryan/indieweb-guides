@@ -1,16 +1,15 @@
 ---
-layout: layouts/base-article.njk
+layout: layouts/base-steps.njk
 title: Writing and structuring content
 excerpt: "Understand how to structure your content more effectively and present it in a way that search engines and other users and services on the Web interpret your content effectively."
 categories: browse
-tags: [guide,Writing and structure,Index]
+tags: [guide,Writing and structure,index]
 primary_tag: Writing and structure
 comments: false
 share: true
 identifier: writing-and-structure
 modified: 2017-02-20T19:00:00-04:00
 ---
-layout: layouts/base-article.njk
 
 The range and depth of content we publish on the Web is ever increasing but with this comes an immense task to interpret, categorise and present it all and an organised, digestible form that can be universally understood by other humans and computers.
 

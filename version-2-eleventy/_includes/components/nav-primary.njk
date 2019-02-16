@@ -1,4 +1,7 @@
 <nav class="nav-primary {% if navtitle == "Home" %}nav-primary--short{% endif %}">
     {% if navtitle != "Home" %} {% include "components/logo.njk" %} {% endif %}
-    {% include "components/search.njk" %}
+    <div class="nav-primary__items">
+        <a class="nav-item" href="{{ '/' | url }}guides">Browse guides</a>
+        {% include "components/search.njk" %}
+    </div>
 </nav>

@@ -10,4 +10,3 @@ comments: false
 share: true
 identifier: interaction
 ---
-layout: layouts/base-article.njk

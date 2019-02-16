@@ -11,5 +11,4 @@ share: true
 identifier: static
 status: draft
 ---
-layout: layouts/base-article.njk
 A static site generator based on the React.js framework where pages and posts are rendered as a single page application.

@@ -11,7 +11,6 @@ share: true
 identifier: micropub
 status: draft
 ---
-layout: layouts/base-article.njk
 <h2 id="benefits">Benefits</h2>
 
 <h2 id="use">Considerations</h2>

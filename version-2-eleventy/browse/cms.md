@@ -9,6 +9,4 @@ secondary_tag: CMS
 comments: false
 share: true
 identifier: publishing-your-content
-
 ---
-layout: layouts/base-article.njk

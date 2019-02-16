@@ -10,7 +10,6 @@ comments: false
 share: true
 identifier: webmentions
 ---
-layout: layouts/base-article.njk
 <h2 id="benefits">Benefits</h2>
 By using Webmentions in your site you can enhance and expand on the range of ways you communicate with others over the web. You can publish responses and interactions with other websites with more control over how the contents is displayed.
 

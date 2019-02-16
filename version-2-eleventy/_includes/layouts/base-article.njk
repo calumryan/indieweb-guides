@@ -5,6 +5,7 @@
 
 	<body class="generic">
 
+        {% include "components/skip.njk" %}
         {% include "components/nav-primary.njk" %}
 
         <article class="h-entry e-content" role="main">
@@ -23,7 +24,7 @@
                     </ol>
                 </div>
             </div>
-            <div class="page-wrap">
+            <div id="main" class="page-wrap">
                 <div class="article">
                     <div class="article-content">
                         <p class="p-summary">{{ excerpt }}</p>
