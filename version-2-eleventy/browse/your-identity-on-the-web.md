@@ -1,13 +1,12 @@
 ---
 layout: layouts/base-steps.njk
 title: Your identity on the web
-excerpt: "Prove that other websites and social media profiles are linked to you and much more!"
+excerpt: "Show that other websites and social media profiles are linked to you and much more!"
 categories: browse
-tags: [guide,Your identity on the web,index]
-primary_tag: Your identity on the web
+tags: [guide,index]
+menu: s1
 comments: false
 share: true
-identifier: your-identity-on-the-web
 modified: 2017-02-20T19:00:00-04:00
 ---
 

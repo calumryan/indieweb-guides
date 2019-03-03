@@ -3,8 +3,9 @@ layout: layouts/base-steps.njk
 title: Sharing your content
 excerpt: "Introducing a variety of ways you can share what you publish with others."
 categories: browse
-tags: [guide,Sharing your content,index]
+tags: [guide,index]
 primary_tag: Sharing your content
+menu: s3
 comments: false
 share: true
 identifier: sharing-your-content

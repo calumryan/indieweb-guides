@@ -4,7 +4,7 @@ title: WordPress
 excerpt: "The most popular CMS for content management and publishing"
 categories: browse
 tags: [guide,CMS]
-primary_tag: Publishing your content
+primary_tag: publishing-your-content
 secondary_tag: CMS
 comments: false
 share: true

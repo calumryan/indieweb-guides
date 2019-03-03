@@ -3,8 +3,9 @@ layout: layouts/base-steps.njk
 title: Publishing your content online
 excerpt: "Learn how to publish and edit your content on the web."
 categories: browse
-tags: [guide,Publishing your content,index]
-primary_tag: Publishing your content
+tags: [guide,index]
+primary_tag: publishing-your-content
+menu: s4
 comments: false
 share: true
 identifier: publishing-your-content

@@ -3,9 +3,9 @@ layout: layouts/base-article.njk
 title: IndieAuth
 excerpt: ""
 categories: browse
-tags: [guide,Sign in]
-primary_tag: Your identity on the web,
-secondary_tag: Sign in
+tags: [guide,sign-in]
+primary_tag: your-identity
+secondary_tag: sign-in
 comments: false
 share: true
 identifier: signin

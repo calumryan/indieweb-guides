@@ -3,8 +3,9 @@ layout: layouts/base-steps.njk
 title: Managing and storing your content
 excerpt: "Understand the choices for hosting your content including free and paid-for options that are ready to use of may require extra setup."
 categories: browse
-tags: [guide,Managing your content,index]
-primary_tag: Managing your content
+tags: [guide,index]
+primary_tag: managing-your-content
+menu: s5
 comments: false
 share: true
 identifier: managing-your-content

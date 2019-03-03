@@ -3,7 +3,7 @@ title: Jekyll
 excerpt: "A static site generator which renders pages written in HTML or Markdown using a Ruby-based core rendering with a liquid templating engine"
 categories: browse
 tags: [guide,Static]
-primary_tag: Publishing your content
+primary_tag: publishing-your-content
 secondary_tag: Static
 comments: false
 share: true

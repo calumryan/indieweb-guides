@@ -4,7 +4,7 @@ title: Static
 excerpt: "Guides related to choosing a static website generator or flat file system"
 categories: browse
 tags: [guide,Publishing your content,Sub,Static]
-primary_tag: Publishing your content
+primary_tag: publishing-your-content
 secondary_tag: Static
 comments: false
 share: true

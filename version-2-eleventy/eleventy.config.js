@@ -66,6 +66,30 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByTag("index");
   });
 
+  // Root menu filtered collections
+  eleventyConfig.addCollection("s1", function(collection) {
+    return collection.getFilteredByTag("your-identity");
+  });
+  eleventyConfig.addCollection("s2", function(collection) {
+    return collection.getFilteredByTag("writing-structure");
+  });
+  eleventyConfig.addCollection("s3", function(collection) {
+    return collection.getFilteredByTag("sharing-content");
+  });
+  eleventyConfig.addCollection("s4", function(collection) {
+    return collection.getFilteredByTag("publishing-content");
+  });
+  eleventyConfig.addCollection("s5", function(collection) {
+    return collection.getFilteredByTag("managing-content");
+  });
+
+  // Sub menu filtered collections
+  eleventyConfig.addCollection("sign-in", function(collection) {
+    return collection.getFilteredByTag("sign-in");
+  });
+  eleventyConfig.addCollection("owning-your-domain", function(collection) {
+    return collection.getFilteredByTag("owning-your-domain");
+  });
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("images");

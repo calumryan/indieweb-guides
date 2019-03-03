@@ -4,8 +4,8 @@ title: Microformats
 excerpt: ""
 categories: browse
 tags: [guide,Formats]
-primary_tag: Writing and structure
-secondary_tag: Formats
+primary_tag: writing-and-structure
+secondary_tag: formats
 comments: false
 share: true
 identifier: formats
