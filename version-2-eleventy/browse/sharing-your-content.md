@@ -6,8 +6,7 @@ categories: browse
 tags: [guide,index]
 primary_tag: Sharing your content
 menu: s3
-comments: false
-share: true
+
 identifier: sharing-your-content
 modified: 2017-02-20T19:00:00-04:00
 ---

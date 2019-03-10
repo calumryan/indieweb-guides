@@ -1,13 +1,11 @@
 ---
-layout: layouts/base-article.njk
+layout: layouts/base-steps.njk
 title: Interaction with others
 excerpt: "Ways you can interact with others on the web using IndieWeb technologies"
 categories: browse
-tags: [guide,Interaction with others,Index]
-primary_tag: Interaction with others
-comments: false
-share: true
+tags: [guide,index]
+primary_tag: interaction-with-others
+menu: s6
 identifier: interaction
-status: draft
 ---
 Ways you can interact with others on the web using IndieWeb technologies.

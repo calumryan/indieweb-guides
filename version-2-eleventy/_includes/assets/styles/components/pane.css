@@ -16,7 +16,8 @@
     }
 }
 
-.pane h2 {
+.pane h2,
+.pane .h2 {
     padding: 0 15px;
     margin: 0 0 15px 0
 }

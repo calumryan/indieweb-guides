@@ -6,8 +6,7 @@ categories: browse
 tags: [guide,Webmentions]
 primary_tag: Sharing your content
 secondary_tag: Webmentions
-comments: false
-share: true
+
 identifier: webmentions
 ---
 The purpose of Webmentions is to help standardise and facilitate the kind of reactions or interactions you may be familiar with on social media platforms such as comments, shared links, replies and likes.

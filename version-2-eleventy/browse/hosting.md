@@ -6,7 +6,6 @@ categories: browse
 tags: [guide,Managing your content,Sub,Hosting]
 primary_tag: managing-your-content
 secondary_tag: hosting
-comments: false
-share: true
+
 identifier: managing-your-content
 ---

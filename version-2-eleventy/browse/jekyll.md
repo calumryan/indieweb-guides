@@ -5,8 +5,7 @@ categories: browse
 tags: [guide,Static]
 primary_tag: publishing-your-content
 secondary_tag: Static
-comments: false
-share: true
+
 identifier: static
 layout: layouts/base-article.njk
 ---

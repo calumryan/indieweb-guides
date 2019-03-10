@@ -6,8 +6,7 @@ categories: browse
 tags: [guide,Sharing your content,Sub,PESOS]
 primary_tag: Sharing your content
 secondary_tag: PESOS
-comments: false
-share: true
+
 identifier: sharing-your-content
 status: draft
 ---

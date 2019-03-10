@@ -4,10 +4,8 @@ title: Getting a personal domain
 excerpt: ""
 categories: browse
 tags: [guide,owning-your-domain]
-primary_tag: Your identity on the web
+primary_tag: your-identity-on-the-web
 secondary_tag: Owning your domain
-comments: false
-share: true
 identifier: owning-your-domain
 ---
 ## 1. Overview

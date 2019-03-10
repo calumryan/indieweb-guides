@@ -5,8 +5,7 @@ excerpt: "Show that other websites and social media profiles are linked to you a
 categories: browse
 tags: [guide,index]
 menu: s1
-comments: false
-share: true
+
 modified: 2017-02-20T19:00:00-04:00
 ---
 

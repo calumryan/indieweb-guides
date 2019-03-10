@@ -6,8 +6,7 @@ categories: browse
 tags: [guide,CMS]
 primary_tag: publishing-your-content
 secondary_tag: CMS
-comments: false
-share: true
+
 identifier: cms
 ---
 

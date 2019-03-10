@@ -4,11 +4,10 @@ title: Writing and structuring content
 excerpt: "Understand how to structure your content more effectively and present it in a way that search engines and other users and services on the Web interpret your content effectively."
 categories: browse
 tags: [guide,index]
-primary_tag: writing-and-structure
+primary_tag: writing-and-structuring-content
 menu: s2
-comments: false
-share: true
-identifier: writing-and-structure
+
+identifier: writing-and-structuring-content
 modified: 2017-02-20T19:00:00-04:00
 ---
 

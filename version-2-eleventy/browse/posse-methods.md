@@ -6,7 +6,6 @@ categories: browse
 tags: [guide,Sharing your content,Sub,POSSE]
 primary_tag: Sharing your content
 secondary_tag: POSSE
-comments: false
-share: true
+
 identifier: sharing-your-content
 ---

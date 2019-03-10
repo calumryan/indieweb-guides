@@ -6,7 +6,6 @@ categories: browse
 tags: [guide,Publishing your content,Sub,Static]
 primary_tag: publishing-your-content
 secondary_tag: Static
-comments: false
-share: true
+
 identifier: publishing-your-content
 ---

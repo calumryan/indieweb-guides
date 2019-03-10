@@ -4,10 +4,9 @@ title: Micropub in detail
 excerpt: "Get started using the Micropub standard and implementing coded examples"
 categories: browse
 tags: [guide,Micropub]
-primary_tag: Interaction with others
+primary_tag: interaction-with-others
 secondary_tag: Micropub
-comments: false
-share: true
+
 identifier: micropub
 status: draft
 ---

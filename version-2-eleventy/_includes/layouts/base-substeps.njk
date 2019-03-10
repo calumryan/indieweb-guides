@@ -14,7 +14,7 @@
 
                 <div id="subsection" class="subsection-pane pane with-sort with-sort pane-nested">
                     <div class="pane-inner curated">
-                        <h2 tabindex="-1">{{ post.secondary_tag }}</h2>
+                        <h1 tabindex="-1" class="h2">{{ title }}</h1>
                         <p class="sort-order">A-Z</p>
 
                         {% set postslist = collections[ secondary_tag ] %}
@@ -28,7 +28,8 @@
 
                 <div id="section" class="section-pane pane pane-primary with-sort">
                     <div class="pane-inner curated">
-                        <h2 tabindex="-1">{{ title }}</h2>
+
+                        <h2 tabindex="-1">{% slugToTitle primary_tag %}</h2>
                         <p class="sort-order">A to Z</p>
 
                         {% set postslist = collections[ primary_tag ] %}
@@ -41,11 +42,11 @@
                 </div>
 
                 <div id="root" class="pane pane-root">
-                    <h1 class="anchor-text" tabindex="-1">{{ post.data.title }}</h1>
+                    <h1 class="anchor-text" tabindex="-1">{{ title }}</h1>
                     <ul role="navigation">
                         {% set postslist = collections.guidesIndex %}
                         {% for post in postslist | reverse %}
-                        <li {% if post.url == page.url %}class="active"{% endif %}><a href="{{ post.url | url }}" {% if post.url == page.url %} data-current="current item"{% endif %}>{{ post.data.title }}</a></li>
+                        <li {% if post.data.title | slug == primary_tag | slug %}class="active"{% endif %}><a href="{{ post.url | url }}" {% if post.url == page.url %} data-current="current item"{% endif %}>{{ post.data.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>

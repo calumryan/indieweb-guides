@@ -6,8 +6,7 @@ categories: browse
 tags: [guide,owning-your-domain]
 primary_tag: your-identity
 secondary_tag: owning-your-domain
-comments: false
-share: true
+
 identifier: owning-your-domain
 ---
 ## 1. Overview

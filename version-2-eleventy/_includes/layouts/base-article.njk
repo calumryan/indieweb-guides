@@ -27,8 +27,12 @@
             <div id="main" class="page-wrap">
                 <div class="article">
                     <div class="article-content">
+                        {% if page.status == 'draft' %}
+                        {% include "components/placeholder.njk" %}
+                        {% else %}
                         <p class="p-summary">{{ excerpt }}</p>
                         {{ layoutContent | safe }}
+                        {% endif %}
                     </div>
                 </div>
             </div>

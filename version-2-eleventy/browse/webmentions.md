@@ -6,7 +6,6 @@ categories: browse
 tags: [guide,Sharing your content,Sub,Webmentions]
 primary_tag: Sharing your content
 secondary_tag: Webmentions
-comments: false
-share: true
+
 identifier: sharing-your-content
 ---

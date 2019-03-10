@@ -68,19 +68,22 @@ module.exports = function(eleventyConfig) {
 
   // Root menu filtered collections
   eleventyConfig.addCollection("s1", function(collection) {
-    return collection.getFilteredByTag("your-identity");
+    return collection.getFilteredByTag("your-identity-on-the-web");
   });
   eleventyConfig.addCollection("s2", function(collection) {
-    return collection.getFilteredByTag("writing-structure");
+    return collection.getFilteredByTag("writing-and-structuring-content");
   });
   eleventyConfig.addCollection("s3", function(collection) {
-    return collection.getFilteredByTag("sharing-content");
+    return collection.getFilteredByTag("sharing-your-content");
   });
   eleventyConfig.addCollection("s4", function(collection) {
-    return collection.getFilteredByTag("publishing-content");
+    return collection.getFilteredByTag("publishing-your-content-online");
   });
   eleventyConfig.addCollection("s5", function(collection) {
-    return collection.getFilteredByTag("managing-content");
+    return collection.getFilteredByTag("managing-and-storing-your-content");
+  });
+  eleventyConfig.addCollection("s6", function(collection) {
+    return collection.getFilteredByTag("interaction-with-others");
   });
 
   // Sub menu filtered collections
@@ -90,6 +93,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("owning-your-domain", function(collection) {
     return collection.getFilteredByTag("owning-your-domain");
   });
+  eleventyConfig.addCollection("formats", function(collection) {
+    return collection.getFilteredByTag("formats");
+  });
+
+  // Hack to convert page primary tag back into human readable title
+  eleventyConfig.addNunjucksShortcode("slugToTitle", function(slug) {
+    const letter = slug.charAt(0).toUpperCase();
+    const title = letter + slug.replace(/-/g, " ").slice(1);
+    return title;
+  });
+
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("images");

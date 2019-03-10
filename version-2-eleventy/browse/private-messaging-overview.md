@@ -6,8 +6,7 @@ categories: browse
 tags: [guide,Private messaging]
 primary_tag: Sharing your content
 secondary_tag: Private messaging
-comments: false
-share: true
+
 identifier: private-messaging
 status: draft
 ---

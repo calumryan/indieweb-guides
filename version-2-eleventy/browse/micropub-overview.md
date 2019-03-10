@@ -4,10 +4,9 @@ title: An overview of Micropub
 excerpt: ""
 categories: browse
 tags: [guide,Micropub]
-primary_tag: Interaction with others
+primary_tag: interaction-with-others
 secondary_tag: Micropub
-comments: false
-share: true
+
 identifier: micropub
 ---
 ## 1. Overview
