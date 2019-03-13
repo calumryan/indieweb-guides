@@ -1,11 +1,9 @@
 ---
-layout: layouts/base-article.njk
+layout: layouts/base-substeps.njk
 title: Webmentions
 excerpt: "Guides related to implementing and using Webmentions to send/receive"
 categories: browse
-tags: [guide,Sharing your content,Sub,Webmentions]
-primary_tag: Sharing your content
+tags: [guide,sharing-your-content]
+primary_tag: sharing-your-content
 secondary_tag: Webmentions
-
-identifier: sharing-your-content
 ---

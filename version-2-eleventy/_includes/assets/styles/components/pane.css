@@ -184,7 +184,7 @@
 
 .pane-primary {
     z-index: 2;
-    background: #FFF;
+    /* background: #FFF; */
     position: relative;
     min-height: 20px
 }

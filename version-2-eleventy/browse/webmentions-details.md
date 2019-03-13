@@ -4,7 +4,7 @@ title: Webmentions in detail
 excerpt: ""
 categories: browse
 tags: [guide,Webmentions]
-primary_tag: Sharing your content
+primary_tag: sharing-your-content
 secondary_tag: Webmentions
 
 identifier: webmentions

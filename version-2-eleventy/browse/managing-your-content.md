@@ -4,7 +4,7 @@ title: Managing and storing your content
 excerpt: "Understand the choices for hosting your content including free and paid-for options that are ready to use of may require extra setup."
 categories: browse
 tags: [guide,index]
-primary_tag: managing-your-content
+primary_tag: managing-and-storing-your-content
 menu: s5
 modified: 2017-02-20T19:00:00-04:00
 ---

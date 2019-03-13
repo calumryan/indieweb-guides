@@ -1,10 +1,9 @@
 ---
-layout: layouts/base-article.njk
+layout: layouts/base-substeps.njk
 title: Backup
 excerpt: "Considering a range of distributed backup locations for your data."
 categories: browse
-tags: [guide,Managing your content,Sub,Backup]
-primary_tag: managing-your-content
+tags: [guide,managing-and-storing-your-content]
+primary_tag: managing-and-storing-your-content
 secondary_tag: backup
-identifier: managing-your-content
 ---

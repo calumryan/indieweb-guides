@@ -1,11 +1,9 @@
 ---
-layout: layouts/base-article.njk
+layout: layouts/base-substeps.njk
 title: CMS
 excerpt: "Guides related to choosing a content management system"
 categories: browse
-tags: [guide,publishing-your-content,Sub,CMS]
-primary_tag: publishing-your-content
-secondary_tag: CMS
-
-identifier: publishing-your-content
+tags: [guide,publishing-your-content-online]
+primary_tag: publishing-your-content-online
+secondary_tag: cms
 ---

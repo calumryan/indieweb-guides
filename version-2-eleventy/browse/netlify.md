@@ -2,8 +2,8 @@
 title: Netlify
 excerpt: "Netlify provides deployment of static websites as well offering integration with a range JAMstack architecture."
 categories: browse
-tags: [guide,Hosting]
-primary_tag: managing-your-content
+tags: [guide,hosting]
+primary_tag: managing-and-storing-your-content
 secondary_tag: hosting
 
 identifier: hosting

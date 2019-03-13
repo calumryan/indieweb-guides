@@ -1,13 +1,11 @@
 ---
+layout: layouts/base-article.njk
 title: Jekyll
 excerpt: "A static site generator which renders pages written in HTML or Markdown using a Ruby-based core rendering with a liquid templating engine"
 categories: browse
-tags: [guide,Static]
+tags: [guide,static]
 primary_tag: publishing-your-content
-secondary_tag: Static
-
-identifier: static
-layout: layouts/base-article.njk
+secondary_tag: static
 ---
 
 ## 1. Overview

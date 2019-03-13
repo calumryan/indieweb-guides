@@ -1,11 +1,9 @@
 ---
-layout: layouts/base-article.njk
+layout: layouts/base-substeps.njk
 title: POSSE
 excerpt: "Guides related to using syndication model POSSE - Publish (on your) Own Site, Syndicate Elsewhere"
 categories: browse
-tags: [guide,Sharing your content,Sub,POSSE]
-primary_tag: Sharing your content
-secondary_tag: POSSE
-
-identifier: sharing-your-content
+tags: [guide,sharing-your-content]
+primary_tag: sharing-your-content
+secondary_tag: posse
 ---
