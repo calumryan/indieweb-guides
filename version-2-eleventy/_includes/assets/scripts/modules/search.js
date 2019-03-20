@@ -20,7 +20,7 @@ export default function () {
     const resultsArray = findResults(input, pages);
     const result = resultsArray.map(item => {
       const html = `
-        <a class="form__option" href="${item.url}" aria-label="${item.title} (${item.type})">
+        <a class="form__option" href="${item.url}" aria-label="${item.title}">
           <h3 class="form__option-title">${item.title}</h3>
         </a>`;
 

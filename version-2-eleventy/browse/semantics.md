@@ -6,7 +6,6 @@ categories: browse
 tags: [guide,formats]
 primary_tag: writing-and-structuring-content
 secondary_tag: formats
-
 identifier: formats
 status: draft
 ---
