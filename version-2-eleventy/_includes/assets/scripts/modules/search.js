@@ -22,7 +22,6 @@ export default function () {
       const html = `
         <a class="form__option" href="${item.url}" aria-label="${item.title} (${item.type})">
           <h3 class="form__option-title">${item.title}</h3>
-          <p class="form__option-summary">${item.type}</p>
         </a>`;
 
       return {
