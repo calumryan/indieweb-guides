@@ -6,6 +6,22 @@
     padding: 4rem 0;
 }
 
+.article ul {
+    padding:0
+}
+
+.article li {
+    list-style-type: square;
+}
+
+.article li a {
+    text-decoration:underline
+}
+
+.article li a:hover {
+    text-decoration:none
+}
+
 @media (--from-large-viewport) {
     .article {
         display: grid;
@@ -25,3 +41,31 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+
+.article-aside h2 {
+    border-top:5px solid #005ea5;
+    padding-top:10px
+}
+
+.article-content>ul,
+.article-content>ol {
+    padding-left:20px
+}
+
+.article-content p>code,
+.article-content li>code {
+    background-color:#e2e2e2
+}
+
+/* @media screen and (min-width: 48em) {
+    .article {
+        flex: 1 0 33.333%;
+        max-width: 33.333%;
+        min-width: 33.333%;
+        flex-direction: column
+    }
+    .article>div {
+        padding-left: 30px
+    }
+} */
