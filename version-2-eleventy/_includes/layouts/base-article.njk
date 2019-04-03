@@ -42,7 +42,7 @@
                         <ul role="navigation">
                         {% for post in postslist | reverse %}
                             {% if post.url != page.url %}
-                            <li><a href="{{ post.url | url }}">{{ post.data.title }} <div class="pane-excerpt">{{ post.data.excerpt }}</div></a></li>
+                            <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
                             {% endif %}
                         {% endfor %}
                         </ul>

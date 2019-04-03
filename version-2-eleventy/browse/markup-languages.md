@@ -6,7 +6,6 @@ categories: browse
 tags: [guide,formats]
 primary_tag: writing-and-structuring-content
 secondary_tag: formats
-identifier: formats
 ---
 ## 1. Overview
 Depending how you choose to manage and publish content on your website you may or may not need to directly handle its markup language. Being of aware of what it’s for and how it works, regardless of the need to directly edit it, is however valuable and can help you make more informed decisions about the structural presentation of content on your website.

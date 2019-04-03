@@ -5,7 +5,7 @@ excerpt: "A free and open source content-management framework"
 categories: browse
 tags: [guide,cms]
 primary_tag: cms
-secondary_tag: publishing-your-content
+secondary_tag: cms
 ---
 
 ## 1. Overview

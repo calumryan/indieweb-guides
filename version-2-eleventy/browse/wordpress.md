@@ -5,7 +5,7 @@ excerpt: "The most popular CMS for content management and publishing"
 categories: browse
 tags: [guide,cms]
 primary_tag: cms
-secondary_tag: publishing-your-content
+secondary_tag: cms
 ---
 
 ## 1. Overview
