@@ -12,7 +12,7 @@ export default function () {
   function findResults(termToMatch, pages) {
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
-      return item.title.match(regex) || item.content.match(regex);
+      return item.title.match(regex);
     });
   }
 
