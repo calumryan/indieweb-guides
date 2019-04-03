@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
 
@@ -13,6 +14,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
   eleventyConfig.addLayoutAlias("post", "src/layouts/post.njk");
+
+  // Syntax highlighter
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {

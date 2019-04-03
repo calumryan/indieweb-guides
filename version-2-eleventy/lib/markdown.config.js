@@ -2,6 +2,7 @@ const markdown = require('markdown-it');
 const uslug = require('uslug');
 
 module.exports = (() => {
+
   // Convert string to Twitter URL
   function parseURL(str) {
     return `https://twitter.com/@${str}`;
