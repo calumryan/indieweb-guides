@@ -12,6 +12,15 @@
     width: 100%;
 }
 
+.fill__article a {
+    text-decoration: underline;
+}
+
+.fill__article a:hover,
+.fill__article a:focus {
+    text-decoration: none;
+}
+
 .fill main {
     background-color: #fff;
 }
