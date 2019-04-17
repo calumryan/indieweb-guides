@@ -15,6 +15,13 @@
     font-weight: 600;
 }
 
-.panels h3 {
+.panels a:hover,
+.panels a:focus {
+    text-decoration: none;
+}
+
+.panels h3,
+.panels h2 {
     margin: 0 0 0.5em 0;
+    font-size: 1.5em;
 }
