@@ -1,7 +1,7 @@
 .breadcrumbs li {
     list-style: none;
     padding: 0 5px;
-    color: #fff;
+    color: #000000;
 }
 
 .breadcrumbs li::after {
@@ -16,7 +16,7 @@
 
 .breadcrumbs li a {
     text-decoration: underline;
-    color: #fff;
+    color: #000000;
     display: inline-block;
 }
 
