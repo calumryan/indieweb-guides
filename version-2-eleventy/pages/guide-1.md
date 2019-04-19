@@ -9,7 +9,7 @@ tags:
   - guide
   - nav
 ---
-**Getting started with your first website might seem a little daunting to begin but much like anything breaking it down into small steps can make the process a lot easier and less overwhelming. These steps can be done in any order you find easiest that may depend whether you've done any them previously.**
+**Getting started with your first website might seem a little daunting to begin with but much like anything breaking it down into small steps can make the process a lot easier and less overwhelming. These steps can be done in any order you find easiest that may depend whether you've done any them previously.**
 
 ## Step 1 - Content and purpose
 Think about what it is you might want to have on your website and how regularly you up date it. Initially you might want to show some simple profile information and your personal background. It's your site so you decide what to publish and share with the world.
