@@ -3,10 +3,8 @@ layout: layouts/base-article.njk
 title: An overview of private messaging
 excerpt: ""
 categories: browse
-tags: [guide,Private messaging]
+tags: [guide,private-messaging]
 primary_tag: Sharing your content
-secondary_tag: Private messaging
-
-identifier: private-messaging
+secondary_tag: private-messaging
 status: draft
 ---

@@ -3,7 +3,7 @@ layout: layouts/base-article.njk
 title: Micropub in detail
 excerpt: "Get started using the Micropub standard and implementing coded examples"
 categories: browse
-tags: [guide,Micropub]
+tags: [guide, micropub]
 primary_tag: interaction-with-others
 secondary_tag: Micropub
 
