@@ -22,7 +22,7 @@
 
                         {% set postslist = collections[ menu ] %}
                         <ul role="navigation">
-                        {% for post in postslist | reverse %}
+                        {% for post in postslist %}
                         <li {% if post.url == page.url %}class="active"{% endif %}><a href="{{ post.url | url }}" {% if post.url == page.url %} data-current="current item"{% endif %}>{{ post.data.title }} <div class="pane-excerpt">{{ post.data.excerpt }}</div></a></li>
                         {% endfor %}
                         </ul>

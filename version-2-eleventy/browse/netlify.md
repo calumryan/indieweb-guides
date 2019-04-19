@@ -5,8 +5,6 @@ categories: browse
 tags: [guide,hosting]
 primary_tag: managing-and-storing-your-content
 secondary_tag: hosting
-
-identifier: hosting
 layout: layouts/base-article.njk
 ---
 
