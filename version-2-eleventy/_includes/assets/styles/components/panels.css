@@ -3,7 +3,7 @@
 }
 
 .panels li {
-    background-color: #2b8cc4;
+    background-color: var(--color-block-link);
     color: #FFF;
     padding: 15px;
     margin: 0 0 1em 0;

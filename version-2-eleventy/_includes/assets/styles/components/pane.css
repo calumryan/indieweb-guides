@@ -102,7 +102,7 @@
 
 .pane ul li.active a {
     color: #FFF;
-    background-color: #2b8cc4
+    background-color: var(--color-block-link)
 }
 
 .pane ul li.active a .pane-excerpt {

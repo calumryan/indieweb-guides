@@ -3,6 +3,7 @@
   --color-page-heading: rgb(21, 21, 21);
   --color-input: rgb(41, 41, 41);
   --color-input-focus: rgb(18, 18, 18);
+  --color-block-link: #0c7b25;
 
   /* Neutral palette */
   --color-neutral: hsla(228, 8%, 64%, 1);
