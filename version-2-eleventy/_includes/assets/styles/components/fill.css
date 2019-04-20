@@ -12,6 +12,10 @@
     width: 100%;
 }
 
+.fill__article p {
+    margin: 0 0 1.5em 0;
+}
+
 .fill__article a {
     text-decoration: underline;
 }

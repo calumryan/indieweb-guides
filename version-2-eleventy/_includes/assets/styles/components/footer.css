@@ -4,3 +4,28 @@ footer {
   color: #fff;
   width: 100%;
 }
+
+.footer__contribute {
+  background-color: hsl(22, 100%, 50%);
+  border-radius: 50%;
+  box-shadow: 0 2px 1px rgba(0,0,0,.3);
+  color: #ffffff;
+  width: 1.8em;
+  height: 1.8em;
+  font-size: 2em;
+  line-height: 1.8;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  text-align: center;
+}
+
+.footer__contribute:focus {
+  background-color: #FFB100;
+  outline: 3px solid #FFB100
+}
+
+.footer__contribute:hover {
+  background-color: #dee0e2;
+  color: #005ea5
+}

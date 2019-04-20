@@ -2,3 +2,9 @@
     padding: 2rem;
     background-color: #fff;
 }
+
+@media (--from-largest-viewport-vertical){
+    .page-wrap {
+        min-height: 75vh;
+    }
+}
