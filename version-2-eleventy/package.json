@@ -6,7 +6,7 @@
     "build:files": "npx eleventy --config eleventy.config.js",
     "build:scripts": "rollup --config lib/rollup.config.js",
     "build:styles": "postcss _includes/assets/styles/app.css -o _site/assets/styles/app.css --config lib/postcss.config.js",
-    "build": "npm update && npm run build:styles && npm run build:scripts && npm run build:files",
+    "build": "npm run build:styles && npm run build:scripts && npm run build:files",
     "watch:files": "npx eleventy --config eleventy.config.js --quiet --watch",
     "watch:scripts": "rollup --c`onfig lib/rollup.config.js --watch",
     "watch:styles": "postcss _includes/assets/styles/app.css -o _site/assets/styles/app.css --config lib/postcss.config.js --watch",
