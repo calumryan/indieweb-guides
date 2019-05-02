@@ -3,7 +3,7 @@ layout: layouts/base-fill.njk
 title: Getting started with a website
 subtitle: Where to begin
 date: 2018-01-01T00:00:00.000Z
-permalink: /guide-1
+permalink: guide-1/
 navtitle: Guide 1
 tags:
   - guide

@@ -3,7 +3,7 @@ layout: layouts/base-guides.njk
 title: A-Z index
 subtitle: Guides
 date: 2018-01-01T00:00:00.000Z
-permalink: /guides/index.html
+permalink: /guides/
 navtitle: Guides
 tags:
   - nav
