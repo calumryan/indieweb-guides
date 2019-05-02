@@ -12,8 +12,15 @@
     width: 100%;
 }
 
-.fill__article p {
+.fill__article > p,
+.fill__article > li {
     margin: 0 0 1.5em 0;
+}
+
+.fill__article > li {
+    list-style-type: square;
+    margin-left: 1em;
+    padding-left: .25em;
 }
 
 .fill__article a {
