@@ -1,0 +1,261 @@
+[
+  {
+    "title": "Getting started with a website",
+    "url": "/guide-1"
+  },
+
+  {
+    "title": "Guide 2",
+    "url": "/guide-2"
+  },
+
+  {
+    "title": "Guide 3",
+    "url": "/guide-3"
+  },
+
+  {
+    "title": "Gatsby",
+    "url": "/browse/gatsby/"
+  },
+
+  {
+    "title": "Interaction with others",
+    "url": "/browse/interaction-with-others/"
+  },
+
+  {
+    "title": "Jekyll",
+    "url": "/browse/jekyll/"
+  },
+
+  {
+    "title": "Managing and storing your content",
+    "url": "/browse/managing-your-content/"
+  },
+
+  {
+    "title": "Publishing your content online",
+    "url": "/browse/publishing-your-content/"
+  },
+
+  {
+    "title": "Sharing your content",
+    "url": "/browse/sharing-your-content/"
+  },
+
+  {
+    "title": "Writing and structuring content",
+    "url": "/browse/writing-and-structure/"
+  },
+
+  {
+    "title": "Accessiblity",
+    "url": "/browse/accessibility/"
+  },
+
+  {
+    "title": "Backup",
+    "url": "/browse/backup/"
+  },
+
+  {
+    "title": "CMS",
+    "url": "/browse/cms/"
+  },
+
+  {
+    "title": "Drupal",
+    "url": "/browse/drupal/"
+  },
+
+  {
+    "title": "Formats",
+    "url": "/browse/formats/"
+  },
+
+  {
+    "title": "Getting a personal domain",
+    "url": "/browse/getting-a-personal-domain/"
+  },
+
+  {
+    "title": "Github Pages",
+    "url": "/browse/github/"
+  },
+
+  {
+    "title": "Hosting",
+    "url": "/browse/hosting/"
+  },
+
+  {
+    "title": "IndieAuth",
+    "url": "/browse/indieauth/"
+  },
+
+  {
+    "title": "Markup languages",
+    "url": "/browse/markup-languages/"
+  },
+
+  {
+    "title": "Microformats",
+    "url": "/browse/microformats/"
+  },
+
+  {
+    "title": "Micropub in detail",
+    "url": "/browse/micropub-details/"
+  },
+
+  {
+    "title": "An overview of Micropub",
+    "url": "/browse/micropub-overview/"
+  },
+
+  {
+    "title": "Micropub",
+    "url": "/browse/micropub/"
+  },
+
+  {
+    "title": "Netlify",
+    "url": "/browse/netlify/"
+  },
+
+  {
+    "title": "Owning your domain",
+    "url": "/browse/owning-your-domain/"
+  },
+
+  {
+    "title": "PESOS",
+    "url": "/browse/pesos-methods/"
+  },
+
+  {
+    "title": "POSSE",
+    "url": "/browse/posse-methods/"
+  },
+
+  {
+    "title": "An overview of private messaging",
+    "url": "/browse/private-messaging-overview/"
+  },
+
+  {
+    "title": "Private messaging",
+    "url": "/browse/private-messaging/"
+  },
+
+  {
+    "title": "Push notifications",
+    "url": "/browse/push-notifications/"
+  },
+
+  {
+    "title": "RelMe",
+    "url": "/browse/relme/"
+  },
+
+  {
+    "title": "Semantics",
+    "url": "/browse/semantics/"
+  },
+
+  {
+    "title": "Sign in",
+    "url": "/browse/signin/"
+  },
+
+  {
+    "title": "Static",
+    "url": "/browse/static/"
+  },
+
+  {
+    "title": "Webactions",
+    "url": "/browse/webactions/"
+  },
+
+  {
+    "title": "Webmentions in detail",
+    "url": "/browse/webmentions-details/"
+  },
+
+  {
+    "title": "An overview of Webmentions",
+    "url": "/browse/webmentions-overview/"
+  },
+
+  {
+    "title": "Webmentions",
+    "url": "/browse/webmentions/"
+  },
+
+  {
+    "title": "Why get a personal domain?",
+    "url": "/browse/why-get-a-personal-domain/"
+  },
+
+  {
+    "title": "WordPress",
+    "url": "/browse/wordpress/"
+  },
+
+  {
+    "title": "Your identity on the web",
+    "url": "/browse/your-identity-on-the-web/"
+  },
+
+  {
+    "title": "Eleventy",
+    "url": "/browse/eleventy/"
+  },
+
+  {
+    "title": "Getting a token",
+    "url": "/browse/getting-a-token/"
+  },
+
+  {
+    "title": "Domain name registrars",
+    "url": "/browse/domain-name-registrars/"
+  },
+
+  {
+    "title": "Self hosting overview",
+    "url": "/browse/self-hosting/"
+  },
+
+  {
+    "title": "Shared hosting overview",
+    "url": "/browse/shared-hosting/"
+  },
+
+  {
+    "title": "Building your website",
+    "url": "/browse/building-your-website/"
+  },
+
+  {
+    "title": "Choosing a domain registrar",
+    "url": "/browse/choosing-a-domain-registrar/"
+  },
+
+  {
+    "title": "Microsub",
+    "url": "/browse/microsub/"
+  },
+
+  {
+    "title": "An overview of Microsub",
+    "url": "/browse/microsub-overview/"
+  },
+
+  {
+    "title": "An overview of Webactions",
+    "url": "/browse/webactions-overview/"
+  }
+]

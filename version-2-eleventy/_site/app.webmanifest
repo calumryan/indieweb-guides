@@ -1,0 +1,14 @@
+{
+  "lang": "en-gb",
+  "name": "IndieWebGuides",
+  "short_name": "IndieWebGuides",
+  "icons": [{
+    "src": "/images/app.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "theme_color": "#151515",
+  "background_color": "#151515",
+  "display": "minimal-ui",
+  "start_url": "./"
+}

@@ -15,7 +15,6 @@ version-2-eleventy/npm-debug.log
 
 ## Jekyll
 version-1/_site
-version-2-eleventy/_site
 *.jekyll
 *.jekyll-metadata
 *.bundle
