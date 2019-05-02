@@ -6,9 +6,6 @@ categories: browse
 tags: [guide,sign-in]
 primary_tag: your-identity
 secondary_tag: sign-in
-
-identifier: signin
-
 ---
 ## 1. Overview
 The purpose of IndieAuth is to provide a means to log-in to other websites using your own identity (e.g. your domain) that's independent of other authentication methods such as via a Facebook, Twitter or Google log-in.
