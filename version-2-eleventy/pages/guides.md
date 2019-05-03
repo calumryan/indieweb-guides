@@ -30,6 +30,6 @@ tags:
 
   Understand the choices for hosting your content including free and paid-for options that are ready to use of may require extra setup.
 
-- ## [Interaction with others](/browse/interaction)
+- ## [Interaction with others](/browse/interaction-with-others)
 
   Ways you can interact with others on the web using IndieWeb technologies
