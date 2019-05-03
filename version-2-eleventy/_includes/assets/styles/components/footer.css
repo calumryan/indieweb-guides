@@ -15,9 +15,10 @@ footer {
   font-size: 2em;
   line-height: 1.8;
   position: fixed;
-  bottom: 1em;
-  right: 1em;
+  bottom: .8em;
+  right: .8em;
   text-align: center;
+  z-index: 20;
 }
 
 .footer__contribute:focus {
