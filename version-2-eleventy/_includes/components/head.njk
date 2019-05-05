@@ -4,12 +4,12 @@
   <title>{{ title or metadata.title }}</title>
 
   <meta property="og:url" content="{% if post.url == url %}{{ post.url | url }}{%- endif -%}">
-  <meta property="og:image" content="{{ '/' | url }}images/iwg-twitter.jpg">
+  <meta property="og:image" content="{{ '/' | url }}images/iwg-twitter.jpg?190505">
   <meta name="twitter:title" content="{{ title or metadata.title }}" />
   <meta property="og:title" content="{{ title or metadata.title }}">
   <meta name="twitter:url" content="{% if post.url == url %}{{ post.url | url }}{%- endif -%}" />
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{ '/' | url }}images/iwg-twitter.jpg" />
+  <meta name="twitter:image" content="{{ '/' | url }}images/iwg-twitter.jpg?190505" />
   {% if excerpt %}
     <meta name="twitter:text:description" content="{{ excerpt }}" />
     <meta name="og:description" content="{{ excerpt }}" />
