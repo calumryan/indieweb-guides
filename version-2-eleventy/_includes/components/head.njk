@@ -4,12 +4,12 @@
   <title>{{ title or metadata.title }}</title>
 
   <meta property="og:url" content="{% if post.url == url %}{{ post.url | url }}{%- endif -%}">
-  <meta property="og:image" content="{{ '/' | url }}images/iwg-twitter.jpg?190505">
+  <meta property="og:image" content="https://indiewebguides.org/images/iwg-twitter.jpg?190505">
   <meta name="twitter:title" content="{{ title or metadata.title }}" />
   <meta property="og:title" content="{{ title or metadata.title }}">
   <meta name="twitter:url" content="{% if post.url == url %}{{ post.url | url }}{%- endif -%}" />
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{ '/' | url }}images/iwg-twitter.jpg?190505" />
+  <meta name="twitter:image" content="https://indiewebguides.org/images/iwg-twitter.jpg?190505" />
   {% if excerpt %}
     <meta name="twitter:text:description" content="{{ excerpt }}" />
     <meta name="og:description" content="{{ excerpt }}" />
@@ -23,10 +23,10 @@
   <meta name="theme-color" content="#212227">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="/assets/styles/app.css">
-  <link rel="canonical" href="{% if post.url == url %}{{ post.url | url }}{%- endif -%}">
+  <link rel="canonical" href="{{ page.url }}">
   <link rel="manifest" href="/app.webmanifest">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ '/' | url }}images/app.ico"/>
-  <link rel="apple-touch-icon" href="{{ '/' | url }}images/app.png" type="image/png">
+  <link rel="shortcut icon" type="image/x-icon" href="https://indiewebguides.org/images/app.ico"/>
+  <link rel="apple-touch-icon" href="https://indiewebguides.org/images/app.png" type="image/png">
   <script> </script><!-- Firefox FOUC solution -->
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
