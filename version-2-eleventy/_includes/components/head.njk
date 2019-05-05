@@ -25,7 +25,8 @@
   <link rel="stylesheet" href="/assets/styles/app.css">
   <link rel="canonical" href="{% if post.url == url %}{{ post.url | url }}{%- endif -%}">
   <link rel="manifest" href="/app.webmanifest">
-  <link rel="apple-touch-icon" href="/images/app.png" type="image/png">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/' | url }}images/app.ico"/>
+  <link rel="apple-touch-icon" href="{{ '/' | url }}images/app.png" type="image/png">
   <script> </script><!-- Firefox FOUC solution -->
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
