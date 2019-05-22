@@ -27,6 +27,7 @@ html {
 
 body {
   background: var(--color-offset);
+  color: #000;
   color: var(--color-text);
   font-family: var(--font-family-sans);
   margin: 0;
