@@ -10,6 +10,8 @@
 }
 
 .screenshots img {
+  box-shadow: var(--image-box-shadow);
+  margin: var(--image-margin);
   box-shadow:
     0.25vw 0.5vw 0.5vw var(--color-alpha-highest),
     1.5vw 2vw 4vw 1vw var(--screenshot-shadow, var(--color-rule));

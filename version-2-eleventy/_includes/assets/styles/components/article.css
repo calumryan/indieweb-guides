@@ -6,12 +6,17 @@
     padding: 4rem 0;
 }
 
-.article ul {
+.article ul,
+.article ol {
     padding:0
 }
 
-.article li {
+.article ul li {
     list-style-type: square;
+}
+
+.article ol li {
+    list-style-type: decimal;
 }
 
 .article li a {

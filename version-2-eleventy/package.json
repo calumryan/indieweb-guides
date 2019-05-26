@@ -1,7 +1,7 @@
 {
   "name": "indieWeb-guides",
   "version": "1.0.0",
-  "description": "Source code for Introducing the IndieWeb guides. This is a work in progress started at IndieWebCamp Nuremburg which is a documentation of what the IndieWeb community is about written for and aimed at non-technical users.",
+  "description": "Source code for Introducing the IndieWebGuides. This is a work in progress started at IndieWebCamp Nuremburg which is a documentation of what the IndieWeb community is about written for and aimed at non-technical users.",
   "scripts": {
     "build:files": "npx eleventy --config eleventy.config.js",
     "build:scripts": "rollup --config lib/rollup.config.js",

@@ -21,11 +21,11 @@
 }
 
 .steps a {
-    border: 0.3em solid #0c7b25;
+    border: 0.3em solid var(--color-block-link);
     border-radius: 10px;
     display: block;
     padding: 1em 1.5em;
-    color: #0c7b25;
+    color: var(--color-block-link);
 }
 
 .steps li a:after {
@@ -42,8 +42,8 @@
     z-index: 2;
     border-width: 0.3em;
     border-style: solid;
-    border-top-color:#0c7b25;
-    border-right-color:#0c7b25;
+    border-top-color: var(--color-block-link);
+    border-right-color: var(--color-block-link);
     border-bottom-color: #fff;
     border-left-color: #fff;
     background-color: #fff;

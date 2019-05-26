@@ -17,10 +17,28 @@
     margin: 0 0 1.5em 0;
 }
 
-.fill__article > li {
-    list-style-type: square;
+.fill__article > ul li,
+.fill__article > ol li {
     margin-left: 1em;
     padding-left: .25em;
+    margin-bottom: .5em;
+}
+
+.fill__article > ul > li,
+.fill__article > ol li ul li {
+    list-style-type: square;
+}
+
+.fill__article > ol > li,
+.fill__article > ul li ol li {
+    list-style-type: decimal;
+}
+
+.fill__article > ul li ol,
+.fill__article > ul li ul,
+.fill__article > ol li ol,
+.fill__article > ol li ul {
+    padding-top: .5em;
 }
 
 .fill__article a {
@@ -30,6 +48,10 @@
 .fill__article a:hover,
 .fill__article a:focus {
     text-decoration: none;
+}
+
+.fill__article > p > img {
+    box-shadow: var(--image-box-shadow);
 }
 
 .fill main {

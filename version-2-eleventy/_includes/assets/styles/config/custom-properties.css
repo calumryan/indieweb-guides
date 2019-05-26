@@ -95,6 +95,9 @@
 
   /* Navigation */
   --nav-height: 70px;
+
+  /* Images */
+  --image-box-shadow: rgba(216,216,216,0.5) 0px 3px 3px;
 }
 
 
