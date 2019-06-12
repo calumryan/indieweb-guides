@@ -13,10 +13,12 @@
 
 .article ul li {
     list-style-type: square;
+    margin-bottom: 1rem;
 }
 
 .article ol li {
     list-style-type: decimal;
+    margin-bottom: 1rem;
 }
 
 .article li a {
