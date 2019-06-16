@@ -15,6 +15,7 @@
 .fill__article > p,
 .fill__article > li {
     margin: 0 0 1.5em 0;
+    line-height: 1.5;
 }
 
 .fill__article > ul li,
@@ -42,12 +43,14 @@
 }
 
 .fill__article a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 3px solid var(--color-border-link);
 }
 
 .fill__article a:hover,
 .fill__article a:focus {
     text-decoration: none;
+    border-color: var(--color-border-hover);
 }
 
 .fill__article > p > img {
