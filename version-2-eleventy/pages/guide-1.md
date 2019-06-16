@@ -15,7 +15,7 @@ tags:
 Think about what it is you might want to have on your website and how regularly you up date it. Initially you might want to show some simple profile information and your personal background. It's your site so you decide what to publish and share with the world.
 
 ## Step 2 - Choose your host
-Just like choosing a place to live, when you decide where your website should be stored, this presents many choices from [self hosting](/browse/self-hosting) to [shared hosting](/browse/shared-hosting) with different costs, included features and different levels of support to help get you started. We've put together a comparison list of some [hosts](/browse/hosting) IndieWeb community members use or you might prefer to find and compare your own.
+Just like choosing a place to live, when you decide where your website should be stored, this presents many choices from [self hosting](/browse/self-hosting) to [shared/managed hosting](/browse/shared-hosting) with different costs, included features and different levels of support to help get you started. We've put together a comparison list of some [hosts](/browse/hosting) IndieWeb community members use or you might prefer to find and compare your own.
 
 ## Step 3 - Choose a domain name
 Getting your own personal domain name is one of the first steps in giving you a unique address on the web which can represent you and no one else. Just like choosing a host, you should decide on a [domain name registrar](/browse/domain-name-registrars) to buy your domain name from. Refer to our [choosing a domain](/browse/choosing-a-domain-registrar) guide for help deciding which options are available and making sure you don't let it expire.

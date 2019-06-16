@@ -71,13 +71,18 @@
     margin-bottom: 1.5em;
 }
 
-.article-content p > a {
-    text-decoration: underline;
+.article p > a,
+.article li > a {
+    text-decoration: none;
+    border-bottom: 3px solid var(--color-border-link);
 }
 
-.article-content p > a:hover,
-.article-content p > a:focus {
+.article p > a:focus,
+.article li > a:focus,
+.article p > a:hover,
+.article li > a:hover {
     text-decoration: none;
+    border-color: var(--color-border-hover);
 }
 
 .article-content pre {
