@@ -14,10 +14,10 @@ Renting space on a remote server is generally the most popular way to self-host 
 
 *Consider [managed hosting](/browse/shared-hosting) as an option for more support and generally lower costs at the expense of less control and flexibility for hosting your website.*
 
-### Self-hosting providers
+### Some examples of self-hosting providers
+- [Amazon Elastic Compute Cloud](https://aws.amazon.com/ec2/)
 - [DigitalOcean](https://digitalocean.com/)
 - [Heroku](https://www.heroku.com/)
-- [Amazon Elastic Compute Cloud](https://aws.amazon.com/ec2/)
 
 ## On-site self-hosting
 Of the two options this is likely to be the most risky and high-maintenance way to host your website. On-site hosting involves everything from powering, temperature controlling, securing your own equipment and much else. Apart from those factors you have virtually complete control over hosting your own website from how much space you require to what source of energy you use to power your own equipment.
