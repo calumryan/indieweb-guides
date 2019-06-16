@@ -9,11 +9,15 @@ secondary_tag: hosting
 ---
 Firstly for self-hosting you need to consider where you'll self-host your own website:
 
-
 ## Remote self-hosting
 Renting space on a remote server is generally the most popular way to self-host a website. There are many inexpensive hosting plans available which may also offer some basic level of technical support to ensure your website stays up and has a limited level of protection.
 
 *Consider [managed hosting](/browse/shared-hosting) as an option for more support and generally lower costs at the expense of less control and flexibility for hosting your website.*
+
+### Self-hosting providers
+- [DigitalOcean](https://digitalocean.com/)
+- [Heroku](https://www.heroku.com/)
+- [Amazon Elastic Compute Cloud](https://aws.amazon.com/ec2/)
 
 ## On-site self-hosting
 Of the two options this is likely to be the most risky and high-maintenance way to host your website. On-site hosting involves everything from powering, temperature controlling, securing your own equipment and much else. Apart from those factors you have virtually complete control over hosting your own website from how much space you require to what source of energy you use to power your own equipment.

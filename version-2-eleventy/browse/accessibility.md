@@ -22,7 +22,7 @@ Videos need to be accessible too in a variety of ways including:
 - **An audio description track**
 - **Alternatives**
 
-## 5. Tools to check for accessibility
+## 4. Tools to check for accessibility
 - **AXE** Accessibility testing for Chrome and Firefox developer tools
 - **WAVE** Web accessibility evaluation tool overlays your website
 - **Contrast checker** Check your website's colour scheme passes WCAG guidelines
