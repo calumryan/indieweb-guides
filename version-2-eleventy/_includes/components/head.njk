@@ -4,18 +4,15 @@
   <title>{{ title or metadata.title }}</title>
 
   <meta property="og:url" content="https://indiewebguides.org{{ page.url }}">
-  <meta property="og:image" content="https://indiewebguides.org/images/iwg-twitter.jpg?190505">
-  <meta name="twitter:title" content="{{ title or metadata.title }}" />
-  <meta property="og:title" content="{{ title or metadata.title }}">
+  <meta name="twitter:title" property="og:title" content="{{ title or metadata.title }}">
   <meta name="twitter:url" content="https://indiewebguides.org{{ page.url }}" />
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://indiewebguides.org/images/iwg-twitter.jpg?190505" />
+  <meta name="twitter:image" property="og:image" content="https://indiewebguides.org/images/iwg-twitter.jpg?190505" />
   {% if excerpt %}
-    <meta name="twitter:text:description" content="{{ excerpt }}" />
-    <meta name="og:description" content="{{ excerpt }}" />
+    <meta name="twitter:description" property="og:description" content="{{ excerpt }}" />
   {% else  %}
     <meta name="twitter:text:description" content="Clear, simple guides to taking greater control of your data on the Web" />
-    <meta name="og:description" content="Clear, simple guides to taking greater control of your data on the Web" />
+    <meta name="twitter:description" property="og:description" content="Clear, simple guides to taking greater control of your data on the Web" />
   {% endif %}
 
   <meta name="application-name" content="IndieWebGuides">
