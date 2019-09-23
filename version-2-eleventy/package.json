@@ -31,7 +31,7 @@
     "@11ty/eleventy": "^0.8.3",
     "cssnano": "^4.1.10",
     "html-minifier": "^3.5.21",
-    "luxon": "^1.17.2",
+    "luxon": "^1.19.2",
     "markdown-it": "^8.4.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.4",
@@ -48,7 +48,7 @@
     "postcss-extend-rule": "^2.0.0",
     "postcss-logical": "^3.0.0",
     "postcss-media-minmax": "^4.0.0",
-    "rollup": "^1.17.0",
+    "rollup": "^1.21.4",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.4",
     "rollup-plugin-terser": "^4.0.4"
