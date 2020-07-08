@@ -15,8 +15,83 @@
   },
 
   {
+    "title": "Accessibility",
+    "url": "/browse/accessibility/"
+  },
+
+  {
+    "title": "An overview of Microsub",
+    "url": "/browse/an-overview-of-microsub/"
+  },
+
+  {
+    "title": "Backup",
+    "url": "/browse/backup/"
+  },
+
+  {
+    "title": "Building your website",
+    "url": "/browse/building-your-website/"
+  },
+
+  {
+    "title": "Choosing a domain registrar",
+    "url": "/browse/choosing-a-domain-registrar/"
+  },
+
+  {
+    "title": "CMS",
+    "url": "/browse/cms/"
+  },
+
+  {
+    "title": "Domain name registrars",
+    "url": "/browse/domain-name-registrars/"
+  },
+
+  {
+    "title": "Drupal",
+    "url": "/browse/drupal/"
+  },
+
+  {
+    "title": "Eleventy",
+    "url": "/browse/eleventy/"
+  },
+
+  {
+    "title": "Formats",
+    "url": "/browse/formats/"
+  },
+
+  {
     "title": "Gatsby",
     "url": "/browse/gatsby/"
+  },
+
+  {
+    "title": "Getting a personal domain",
+    "url": "/browse/getting-a-personal-domain/"
+  },
+
+  {
+    "title": "Getting a token",
+    "url": "/browse/getting-a-token/"
+  },
+
+  {
+    "title": "Github Pages",
+    "url": "/browse/github-pages/"
+  },
+
+  {
+    "title": "Hosting",
+    "url": "/browse/hosting/"
+  },
+
+  {
+    "title": "IndieAuth",
+    "url": "/browse/indieauth/"
   },
 
   {
@@ -35,66 +110,6 @@
   },
 
   {
-    "title": "Publishing your content online",
-    "url": "/browse/publishing-your-content/"
-  },
-
-  {
-    "title": "Sharing your content",
-    "url": "/browse/sharing-your-content/"
-  },
-
-  {
-    "title": "Writing and structuring content",
-    "url": "/browse/writing-and-structure/"
-  },
-
-  {
-    "title": "Accessibility",
-    "url": "/browse/accessibility/"
-  },
-
-  {
-    "title": "Backup",
-    "url": "/browse/backup/"
-  },
-
-  {
-    "title": "CMS",
-    "url": "/browse/cms/"
-  },
-
-  {
-    "title": "Drupal",
-    "url": "/browse/drupal/"
-  },
-
-  {
-    "title": "Formats",
-    "url": "/browse/formats/"
-  },
-
-  {
-    "title": "Getting a personal domain",
-    "url": "/browse/getting-a-personal-domain/"
-  },
-
-  {
-    "title": "Github Pages",
-    "url": "/browse/github/"
-  },
-
-  {
-    "title": "Hosting",
-    "url": "/browse/hosting/"
-  },
-
-  {
-    "title": "IndieAuth",
-    "url": "/browse/indieauth/"
-  },
-
-  {
     "title": "Markup languages",
     "url": "/browse/markup-languages/"
   },
@@ -106,7 +121,7 @@
 
   {
     "title": "Micropub in detail",
-    "url": "/browse/micropub-details/"
+    "url": "/browse/micropub-in-detail/"
   },
 
   {
@@ -117,6 +132,11 @@
   {
     "title": "Micropub",
     "url": "/browse/micropub/"
+  },
+
+  {
+    "title": "Microsub",
+    "url": "/browse/microsub/"
   },
 
   {
@@ -150,6 +170,11 @@
   },
 
   {
+    "title": "Publishing your content online",
+    "url": "/browse/publishing-your-content/"
+  },
+
+  {
     "title": "Push notifications",
     "url": "/browse/push-notifications/"
   },
@@ -160,8 +185,23 @@
   },
 
   {
+    "title": "Self-hosting overview",
+    "url": "/browse/self-hosting/"
+  },
+
+  {
     "title": "Semantics",
     "url": "/browse/semantics/"
+  },
+
+  {
+    "title": "Shared hosting overview",
+    "url": "/browse/shared-hosting/"
+  },
+
+  {
+    "title": "Sharing your content",
+    "url": "/browse/sharing-your-content/"
   },
 
   {
@@ -172,6 +212,11 @@
   {
     "title": "Static",
     "url": "/browse/static/"
+  },
+
+  {
+    "title": "An overview of Webactions",
+    "url": "/browse/webactions-overview/"
   },
 
   {
@@ -205,57 +250,12 @@
   },
 
   {
+    "title": "Writing and structuring content",
+    "url": "/browse/writing-and-structure/"
+  },
+
+  {
     "title": "Your identity on the web",
     "url": "/browse/your-identity-on-the-web/"
-  },
-
-  {
-    "title": "Eleventy",
-    "url": "/browse/eleventy/"
-  },
-
-  {
-    "title": "Getting a token",
-    "url": "/browse/getting-a-token/"
-  },
-
-  {
-    "title": "Domain name registrars",
-    "url": "/browse/domain-name-registrars/"
-  },
-
-  {
-    "title": "Self-hosting overview",
-    "url": "/browse/self-hosting/"
-  },
-
-  {
-    "title": "Shared hosting overview",
-    "url": "/browse/shared-hosting/"
-  },
-
-  {
-    "title": "Building your website",
-    "url": "/browse/building-your-website/"
-  },
-
-  {
-    "title": "Choosing a domain registrar",
-    "url": "/browse/choosing-a-domain-registrar/"
-  },
-
-  {
-    "title": "Microsub",
-    "url": "/browse/microsub/"
-  },
-
-  {
-    "title": "An overview of Microsub",
-    "url": "/browse/microsub-overview/"
-  },
-
-  {
-    "title": "An overview of Webactions",
-    "url": "/browse/webactions-overview/"
   }
 ]
