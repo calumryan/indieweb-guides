@@ -31,16 +31,16 @@
     "@11ty/eleventy": "^0.8.3",
     "cssnano": "^4.1.10",
     "html-minifier": "^3.5.21",
-    "luxon": "^1.21.3",
+    "luxon": "^1.25.0",
     "markdown-it": "^8.4.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.5",
     "markdown-it-attrs": "^2.4.1",
-    "markdown-it-deflist": "^2.0.3",
+    "markdown-it-deflist": "^2.1.0",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-mentions": "^1.0.0",
     "markdown-it-table-of-contents": "^0.4.4",
-    "postcss-cli": "^7.1.1",
+    "postcss-cli": "^7.1.2",
     "postcss-color-mod-function": "^3.0.0",
     "postcss-custom-media": "^7.0.8",
     "postcss-custom-selectors": "^5.1.2",
@@ -51,7 +51,7 @@
     "rollup": "^1.27.8",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^4.2.4",
-    "rollup-plugin-terser": "^7.0.0"
+    "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
