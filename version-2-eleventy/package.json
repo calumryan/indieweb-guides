@@ -31,7 +31,7 @@
     "@11ty/eleventy": "^1.0.1",
     "cssnano": "^4.1.10",
     "html-minifier": "^3.5.21",
-    "luxon": "^1.25.0",
+    "luxon": "^2.5.2",
     "markdown-it": "^8.4.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.5",
